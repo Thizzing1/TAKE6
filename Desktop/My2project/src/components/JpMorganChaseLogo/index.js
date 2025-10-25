@@ -1,0 +1,1 @@
+export { JpMorganChaseLogo } from "./JpMorganChaseLogo";

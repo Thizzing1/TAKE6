@@ -1,0 +1,52 @@
+.swap-animation-under {
+    height: 139px;
+    width: 438px;
+  }
+  
+  .swap-animation-under .group {
+    height: 278px;
+    left: 160px;
+    position: relative;
+    top: -139px;
+    width: 417px;
+  }
+  
+  .swap-animation-under .div {
+    height: 278px;
+    position: relative;
+  }
+  
+  .swap-animation-under .group-wrapper {
+    height: 278px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 1px;
+    width: 278px;
+  }
+  
+  .swap-animation-under .ellipse {
+    height: 278px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 139px;
+  }
+  
+  .swap-animation-under .img {
+    height: 278px;
+    left: 139px;
+    position: absolute;
+    top: 0;
+    width: 139px;
+  }
+  
+  .swap-animation-under .div-wrapper {
+    height: 278px;
+    left: 139px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 278px;
+  }
+  

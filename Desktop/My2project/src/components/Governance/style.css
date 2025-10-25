@@ -1,0 +1,20 @@
+.governance {
+  height: 17px;
+  position: relative;
+  width: 80px;
+}
+
+.governance .text-wrapper-78 {
+  color: #8f8e8e;
+  font-family: var(--aave-com-inter-regular-font-family);
+  font-size: var(--aave-com-inter-regular-font-size);
+  font-style: var(--aave-com-inter-regular-font-style);
+  font-weight: var(--aave-com-inter-regular-font-weight);
+  height: 17px;
+  left: 0;
+  letter-spacing: var(--aave-com-inter-regular-letter-spacing);
+  line-height: var(--aave-com-inter-regular-line-height);
+  position: absolute;
+  top: -1px;
+  width: 80px;
+}

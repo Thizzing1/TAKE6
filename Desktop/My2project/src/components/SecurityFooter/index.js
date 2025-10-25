@@ -1,0 +1,1 @@
+export { SecurityFooter } from "./SecurityFooter";

@@ -1,0 +1,1 @@
+export { FaqWhereAre } from "./FaqWhereAre";

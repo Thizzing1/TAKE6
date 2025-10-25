@@ -1,0 +1,1 @@
+export { FaqDoesAaveHaveWrapper } from "./FaqDoesAaveHaveWrapper";

@@ -1,0 +1,30 @@
+.FAQ {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 31.5px;
+  height: 400px;
+  position: relative;
+  width: 609.34px;
+}
+
+.FAQ .FAQ-container-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .design-component-instance-node-6 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.FAQ .see-more-2 {
+  flex: 0 0 auto !important;
+}

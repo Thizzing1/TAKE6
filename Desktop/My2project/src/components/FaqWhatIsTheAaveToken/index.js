@@ -1,0 +1,1 @@
+export { FaqWhatIsTheAaveToken } from "./FaqWhatIsTheAaveToken";

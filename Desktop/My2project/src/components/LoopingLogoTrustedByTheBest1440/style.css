@@ -1,0 +1,134 @@
+/* Styles for LoopingLogoTrustedByTheBest1440 (screenWidth >= 1440px) */
+.looping-logo-trusted-by-the-best-1440 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.looping-logo-trusted-by-the-best-1440 .container-77 {
+  align-items: center;
+  display: inline-flex;
+  gap: 48px;
+  position: relative;
+  animation: slide-1440 89s linear infinite !important; /* Fallback duration */
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.looping-logo-trusted-by-the-best-1440 .container-78 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  min-width: 80px;
+  transform: scale(1) !important;
+  margin: 0;
+  padding: 0;
+}
+
+.looping-logo-trusted-by-the-best-1440 .jp-morgan-chase-trusted-by-the-best-1440 {
+  height: 23.14px !important;
+  width: 165.48px !important;
+}
+
+.looping-logo-trusted-by-the-best-1440 .monetary-of-authority-of-singapore-trusted-by-the-best-1440 {
+  height: 35.41px !important;
+  width: 130.07px !important;
+}
+
+.looping-logo-trusted-by-the-best-1440 .fire-blocks-trusted-by-the-best-1440 {
+  height: 17.7px !important;
+  width: 113.04px !important;
+}
+
+.looping-logo-trusted-by-the-best-1440 .consensys-trusted-by-the-best-1440 {
+  height: 24.5px !important;
+  width: 115.77px !important;
+}
+
+.looping-logo-trusted-by-the-best-1440 .banco-central-do-brasil-trusted-by-the-best-1440 {
+  height: 43.58px !important;
+  width: 78.91px !important;
+}
+
+.looping-logo-trusted-by-the-best-1440 .centrifuge-logo-on-trusted-by-the-best-1440 {
+  height: 28.59px !important;
+  width: 94.66px !important;
+}
+
+/* Keyframe animation for LoopingLogoTrustedByTheBest1440 */
+@keyframes slide-1440 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--logo-set-width-1440, 697.93px)));
+  }
+}
+
+/* Pause on hover */
+.looping-logo-trusted-by-the-best-1440:hover .container-77 {
+  animation-play-state: paused !important;
+}
+
+/* Gradient styles for fading edges */
+.looping-logo-trusted-by-the-best-1440 .gradient,
+.looping-logo-trusted-by-the-best-1440 .gradient-2 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.74) 19%,
+    rgba(255, 255, 255, 0.54) 34%,
+    rgba(255, 255, 255, 0.38) 47%,
+    rgba(255, 255, 255, 0.28) 56%,
+    rgba(255, 255, 255, 0.195) 65%,
+    rgba(255, 255, 255, 0.12) 73%,
+    rgba(255, 255, 255, 0.075) 80%,
+    rgba(255, 255, 255, 0.04) 86%,
+    rgba(255, 255, 255, 0.015) 91%,
+    rgba(255, 255, 255, 0.005) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.looping-logo-trusted-by-the-best-1440 .gradient-2 {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.74) 19%,
+    rgba(255, 255, 255, 0.54) 34%,
+    rgba(255, 255, 255, 0.38) 47%,
+    rgba(255, 255, 255, 0.28) 56%,
+    rgba(255, 255, 255, 0.195) 65%,
+    rgba(255, 255, 255, 0.12) 73%,
+    rgba(255, 255, 255, 0.075) 80%,
+    rgba(255, 255, 255, 0.04) 86%,
+    rgba(255, 255, 255, 0.015) 91%,
+    rgba(255, 255, 255, 0.005) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+  right: 0;
+}
+
+/* Responsive adjustments */
+@media (min-width: 1440px) {
+  .looping-logo-trusted-by-the-best-1440 {
+    min-height: 100px;
+    max-width: 100%;
+  }
+  .looping-logo-trusted-by-the-best-1440 .container-77 {
+    gap: 48px;
+    animation: slide-1440 30s linear infinite !important; /* Fallback */
+  }
+}

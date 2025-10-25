@@ -1,0 +1,1 @@
+export { NavBarProducts } from "./NavBarProducts";

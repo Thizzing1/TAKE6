@@ -1,0 +1,327 @@
+.defi-unlocked {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  position: relative;
+}
+
+.defi-unlocked .background-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 32px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .swap-animation-under {
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 438px;
+}
+
+.defi-unlocked .heading-margin {
+  align-self: stretch;
+  height: 48.39px;
+  margin-top: -1.28e-13px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .heading {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1px;
+  width: 390px;
+}
+
+.defi-unlocked .text-wrapper-4 {
+  color: #201c1c;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.defi-unlocked .container-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-top: -1.28e-13px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .p {
+  align-self: stretch;
+  color: #636161;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.defi-unlocked .stake-animation {
+  height: 150px;
+  left: 170px;
+  position: absolute;
+  top: 0;
+  width: 268px;
+}
+
+.defi-unlocked .text-wrapper-5 {
+  align-self: stretch;
+  color: #636161;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: var(--aave-com-semantic-button-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.defi-unlocked .background-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.27e-13px;
+  height: 300px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 32px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .heading-wrapper {
+  align-self: stretch;
+  height: 48.39px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .container-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked .multi-network {
+  height: 169px;
+  left: 201px;
+  position: absolute;
+  top: 0;
+  width: 237px;
+}
+
+.defi-unlocked .health-factor-animation-under-defi-478 {
+  background-image: unset !important;
+  background-size: unset !important;
+  left: 156px !important;
+  position: absolute !important;
+  top: -48px !important;
+}
+
+/* Media Queries for adjusting background-3 height */
+@media (max-width: 320px) {
+  .defi-unlocked .background-3 {
+    transform: scale(0.70)translateX(40px);
+    height: 370px ; /* Increased height for more lines */
+    margin-bottom: -10px;
+  }
+  .defi-unlocked .text-wrapper-4 {
+    top: -35px;
+    left: 7px;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  } 
+  .defi-unlocked .swap-animation-under{
+    left:-20px;
+  }
+  .defi-unlocked .p{
+    font-size: 22px;
+    top: -32px;
+    left: 7px;
+    line-height: -40px;
+    
+  }
+  .defi-unlocked .stake-animation{
+   left: 110px;
+   height: 300px;
+   top:-55px;
+   transform: scale(1.25);
+  }
+  .defi-unlocked .background-4{
+    transform: scale(0.70)translateX(40px);
+    height: 370px;
+    
+  }
+
+ .defi-unlocked .multi-network {
+  height: 200px;
+  left: 120px;
+  transform: scale(1.4);
+
+
+}
+  
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .defi-unlocked .background-3 {
+    transform: scale(0.80)translateX(-20px);
+    height: 370px ; /* Increased height for more lines */
+  }
+  .defi-unlocked .text-wrapper-4 {
+    top: -35px;
+    left: 7px;
+    font-size: 27px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  } 
+  .defi-unlocked .p{
+    font-size: 20px;
+    top: -32px;
+    left: 7px;
+    line-height: -40px;
+    
+  }
+  .defi-unlocked .stake-animation{
+   left: 130px;
+   height: 300px;
+   top:-55px;
+   transform: scale(1.25);
+  }
+  .defi-unlocked .background-4{
+    transform: scale(0.80)translateX(-20px);
+    height: 370px;
+    
+  }
+
+ .defi-unlocked .multi-network {
+  height: 200px;
+  left: 180px;
+  transform: scale(1.2);
+
+
+}
+
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .defi-unlocked .background-3 {
+    transform: scale(0.88)translateX(-20px);
+    height: 370px ; /* Increased height for more lines */
+  }
+  .defi-unlocked .text-wrapper-4 {
+    top: -35px;
+    left: 7px;
+    font-size: 27px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  } 
+  .defi-unlocked .p{
+    font-size: 18px;
+    top: -32px;
+    left: 7px;
+    
+  }
+  .defi-unlocked .stake-animation{
+   left: 170px;
+   height: 200px;
+   top:-22px
+  }
+  .defi-unlocked .background-4{
+    transform: scale(0.88)translateX(-20px);
+    height: 370px;
+    
+  }
+
+ .defi-unlocked .multi-network {
+  height: 200px;
+  left: 200px;
+
+
+}
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .defi-unlocked .background-3 {
+    transform: scale(1.8)translateX(-20px)translateY(70px);
+    margin-bottom: 150px; /* Increased height for more lines */
+    height: 170px;
+  }
+  .defi-unlocked .swap-animation-under{
+    height: 90px;
+    left: 75px
+  }
+  .defi-unlocked .text-wrapper-4 {
+    font-size: 14px;
+    top: 33px;
+    left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .defi-unlocked .p{
+    font-size: 9px;
+    top: 12px;
+    left: 20px
+
+
+  }
+  .defi-unlocked .stake-animation{
+    height: 90px;
+    left: 230px;
+  }
+
+  .defi-unlocked .background-4{
+    transform: scale(1.75)translateX(-20px)translateY(70px);;
+    margin-bottom: 150px;
+    height: 170px;
+    
+  }
+
+ .defi-unlocked .multi-network {
+  height: 90px;
+  left: 235px
+
+}
+  
+}
+
+
+

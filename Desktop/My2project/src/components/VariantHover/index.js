@@ -1,0 +1,1 @@
+export { VariantHover } from "./VariantHover";

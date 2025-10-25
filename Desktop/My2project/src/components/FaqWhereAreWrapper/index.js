@@ -1,0 +1,1 @@
+export { FaqWhereAreWrapper } from "./FaqWhereAreWrapper";

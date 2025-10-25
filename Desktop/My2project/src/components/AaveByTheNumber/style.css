@@ -1,0 +1,331 @@
+.aave-by-the-number {
+  align-items: flex-start;
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+  position: relative;
+  width: 895px;
+}
+
+.aave-by-the-number .margin {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: 411.5px;
+}
+
+.aave-by-the-number .aave-by-the-numbers-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.aave-by-the-number .container-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  width: 411.5px;
+}
+
+.aave-by-the-number .container-18 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.aave-by-the-number .unused-components-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.aave-by-the-number .img {
+  align-self: stretch;
+  height: 225.11px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.aave-by-the-number .container-19 {
+  align-self: stretch;
+  height: 88.19px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.aave-by-the-number .container-20 {
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  max-width: 102px;
+  position: absolute;
+  top: 20px;
+  width: 102px;
+}
+
+.aave-by-the-number .text-wrapper-33 {
+  color: #201c1c;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  line-height: 25.2px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aave-by-the-number .container-21 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 58px;
+}
+
+.aave-by-the-number .container-22 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.aave-by-the-number .text-wrapper-34 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: #201c1c;
+  display: -webkit-box;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  line-height: 25.2px;
+  margin-top: -1.00px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aave-by-the-number .net-deposits-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 114px;
+  opacity: 0.7;
+  padding: 0px 64.83px 0px 0px;
+  position: absolute;
+  top: 24px;
+}
+
+.aave-by-the-number .text-wrapper-35 {
+  color: #201c1c;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  line-height: 21.6px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+/* Media query for 1024px */
+@media (max-width: 1024px) {
+  .aave-by-the-number .text-wrapper-35 {
+    white-space: nowrap; /* Prevents line breaks */
+  }
+}
+
+.aave-by-the-number .container-23 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  padding: 19.5px 0px 21.09px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.aave-by-the-number .container-24 {
+  align-items: flex-start;
+  display: flex;
+  max-width: 102px;
+  position: relative;
+  width: 102px;
+}
+
+.aave-by-the-number .container-25 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 72px;
+}
+
+.aave-by-the-number .text-wrapper-36 {
+  color: #201c1c;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  line-height: 21.6px;
+  opacity: 0.7;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aave-by-the-number .frame-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.aave-by-the-number .frame {
+  align-self: stretch;
+  background-size: 100% 100%;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+
+.aave-by-the-number .overlap-group-2 {
+  height: 457px;
+  left: -2px;
+  position: relative;
+  top: 21px;
+  width: 415px;
+}
+
+.aave-by-the-number .group {
+  height: 1px;
+  left: 72px;
+  position: absolute;
+  top: 171px;
+  transform: rotate(-24.12deg);
+  width: 1px;
+}
+
+.aave-by-the-number .group-2 {
+  height: 1px;
+  position: relative;
+}
+
+.aave-by-the-number .group-3 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(24.12deg);
+  width: 1px;
+}
+
+.aave-by-the-number .far-left-sky-blue {
+  height: 457px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 415px;
+}
+
+.aave-by-the-number .container-26 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 43px;
+}
+
+.aave-by-the-number .average-stablecoin-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 114px;
+  opacity: 0.7;
+  padding: 0px 68.89px 0px 0px;
+  position: absolute;
+  top: 24px;
+}
+
+.aave-by-the-number .component-wrapper {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 16.01px;
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+  width: 411px;
+  z-index: 1;
+}
+
+.aave-by-the-number .component {
+  align-self: stretch;
+  background-size: 100% 100%;
+  height: 250.12px;
+  position: relative;
+  width: 100%;
+}
+
+.aave-by-the-number .middle-blue {
+  height: 462px;
+  left: -1px;
+  position: absolute;
+  top: -231px;
+  width: 416px;
+}
+
+.aave-by-the-number .container-27 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 49px;
+}
+
+.aave-by-the-number .container-28 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 114px;
+  opacity: 0.7;
+  padding: 0px 66.14px 0px 0px;
+  position: absolute;
+  top: 24px;
+}

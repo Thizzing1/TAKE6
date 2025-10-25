@@ -1,0 +1,168 @@
+/* Base styles for NavBar */
+.nav-bar {
+  display: flex; /* Flexbox for centering header */
+  flex-direction: column; /* Stack header vertically */
+  align-items: center; /* Center header horizontally */
+  position: sticky; /* Stick to top of viewport */
+  top: 0; /* Align to top edge */
+  z-index: 1000; /* Ensure navbar stays above other content */
+  width: 100%; /* Full viewport width to ensure solid background */
+  background-color: #ffffff; /* Solid white background to prevent transparency */
+  transition: width 0.3s ease, max-width 0.3s ease; /* Smooth transitions from original */
+}
+
+/* Header styles for NavBar */
+.nav-bar .header {
+  background-color: #ffffff; /* Solid white background for header */
+  box-shadow: 0px 0.6px 0px #0000000f; /* Subtle shadow from original */
+  flex: 0 0 auto; /* Prevent stretching */
+  max-width: 1082px; /* Max width from original */
+  width: 478px; /* Fixed width as per original design */
+  position: relative; /* Relative positioning for children */
+  padding: 24px 0; /* Add vertical padding to ensure logo/button fit within background */
+  transition: width 0.3s ease, max-width 0.3s ease; /* Smooth width transitions from original */
+}
+
+/* Wrapper for the logo link */
+.nav-bar .link-wrapper {
+  position: fixed; /* Fix to window’s top-left corner, per original */
+  top: 24px; /* 24px from top, per original */
+  left: 24px; /* 24px from left, per original */
+  z-index: 10; /* Ensure logo stays above other elements */
+  display: flex; /* Flexbox for logo alignment */
+  align-items: center; /* Center logo vertically */
+}
+
+/* Link styling for logo */
+.nav-bar .link {
+  display: flex; /* Flexbox for logo alignment */
+  align-items: center; /* Center logo vertically */
+  padding: 0; /* No padding to avoid offset, per original */
+  transition: opacity 0.2s ease; /* Subtle hover effect for interactivity */
+}
+
+/* Hover effect for logo link */
+.nav-bar .link:hover {
+  opacity: 0.8; /* Subtle fade on hover */
+}
+
+/* Logo component styles */
+.nav-bar .brand-name-aave-logo {
+  height: 16px; /* Fixed height from original */
+  width: 94px; /* Fixed width from original */
+  display: block; /* Ensure SVG renders correctly */
+  transition: transform 0.2s ease; /* Subtle hover effect */
+}
+
+/* Hover effect for logo */
+.nav-bar .link:hover .brand-name-aave-logo {
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+/* Positioning for OpenAppButton */
+.nav-bar .open-app-button-1440-991 {
+  position: fixed !important; /* Fix to window’s top-right corner, per original */
+  right: 30px !important; /* 30px from right, per original */
+  top: 15px !important; /* 15px from top, per original */
+  transition: right 0.3s ease, top 0.3s ease, transform 0.2s ease; /* Smooth transitions from original, plus hover */
+}
+
+/* Hover effect for button */
+.nav-bar .open-app-button-1440-991:hover {
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+/* Media Queries for Responsiveness (preserving original breakpoints) */
+
+/* For screens <= 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .nav-bar {
+    width: 100%; /* Full width for solid background */
+  }
+
+  .nav-bar .header {
+    width: 90%; /* Scale to 90% of viewport, per original */
+    max-width: 400px; /* Prevent excessive shrinking, per original */
+  }
+
+  .nav-bar .link-wrapper {
+    top: 20px; /* Slightly adjust logo position, per original */
+    left: 20px; /* Adjusted for consistency */
+  }
+
+  .nav-bar .open-app-button-1440-991 {
+    right: 22px !important; /* Adjusted for smaller screens, per original */
+    top: 13px !important; /* Adjusted for smaller screens, per original */
+  }
+}
+
+/* For screens <= 576px (mobile devices) */
+@media (max-width: 576px) {
+  .nav-bar .header {
+    width: 85%; /* Further scale down, per original */
+    max-width: 320px; /* Per original */
+  }
+
+  .nav-bar .link-wrapper {
+    top: 18px; /* Tighter positioning */
+    left: 18px; /* Adjusted for mobile */
+  }
+
+  .nav-bar .open-app-button-1440-991 {
+    right: 18px !important; /* Adjusted for mobile, per original */
+    top: 12px !important; /* Adjusted for mobile, per original */
+  }
+
+  .nav-bar .brand-name-aave-logo {
+    height: 14px; /* Slightly smaller logo, per original */
+    width: 84px; /* Maintain aspect ratio */
+  }
+}
+
+/* For screens <= 320px (very small devices) */
+@media (max-width: 320px) {
+  .nav-bar .header {
+    width: 95%; /* Maximize width, per original */
+    max-width: 280px; /* Per original */
+  }
+
+  .nav-bar .link-wrapper {
+    top: 16px; /* Tightest positioning */
+    left: 16px; /* Adjusted for very small screens */
+  }
+
+  .nav-bar .open-app-button-1440-991 {
+    right: 15px !important; /* Tighten spacing, per original */
+    top: 11px !important; /* Tighten spacing, per original */
+  }
+
+  .nav-bar .brand-name-aave-logo {
+    height: 12px; /* Smaller logo, per original */
+    width: 74px; /* Maintain aspect ratio */
+  }
+}
+
+/* Ensure content below navbar flows naturally */
+body {
+  margin: 0; /* Remove default body margin to prevent gaps */
+  padding-top: 60px; /* Push content below sticky navbar */
+}
+
+/* Adjust body padding for responsive navbar height */
+@media (max-width: 768px) {
+  body {
+    padding-top: 50px; /* Adjust for smaller navbar height */
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding-top: 45px; /* Tighter padding for mobile */
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    padding-top: 40px; /* Smallest padding for very small screens */
+  }
+}

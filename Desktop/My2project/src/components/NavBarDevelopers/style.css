@@ -1,0 +1,22 @@
+.nav-bar-developers {
+  align-items: center;
+  border-radius: 50px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 8px 16px 9px;
+  position: relative;
+}
+
+.nav-bar-developers .text-8 {
+  color: #201c1c;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.09px;
+  line-height: 14.7px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

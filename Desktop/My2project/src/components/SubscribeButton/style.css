@@ -1,0 +1,27 @@
+.subscribe-button {
+  all: unset;
+  align-items: center;
+  background-color: #201c1c;
+  border-radius: 6px 20px 20px 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  padding: 11.09px 16px 11.91px;
+  position: relative;
+}
+
+.subscribe-button .text-6 {
+  color: #ffffff;
+  font-family: var(--aave-com-inter-medium-font-family);
+  font-size: var(--aave-com-inter-medium-font-size);
+  font-style: var(--aave-com-inter-medium-font-style);
+  font-weight: var(--aave-com-inter-medium-font-weight);
+  letter-spacing: var(--aave-com-inter-medium-letter-spacing);
+  line-height: var(--aave-com-inter-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,1 @@
+export { FaqWhatIsTheAaveWrapper } from "./FaqWhatIsTheAaveWrapper";

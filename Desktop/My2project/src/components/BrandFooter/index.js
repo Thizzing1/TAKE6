@@ -1,0 +1,1 @@
+export { BrandFooter } from "./BrandFooter";

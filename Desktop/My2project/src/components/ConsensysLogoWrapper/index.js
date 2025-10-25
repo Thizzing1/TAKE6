@@ -1,0 +1,1 @@
+export { ConsensysLogoWrapper } from "./ConsensysLogoWrapper";

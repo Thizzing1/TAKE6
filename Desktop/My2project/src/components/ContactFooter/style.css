@@ -1,0 +1,19 @@
+.contact-footer {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.contact-footer .text-wrapper-27 {
+  color: #8f8e8e;
+  font-family: var(--aave-com-inter-regular-font-family);
+  font-size: var(--aave-com-inter-regular-font-size);
+  font-style: var(--aave-com-inter-regular-font-style);
+  font-weight: var(--aave-com-inter-regular-font-weight);
+  letter-spacing: var(--aave-com-inter-regular-letter-spacing);
+  line-height: var(--aave-com-inter-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

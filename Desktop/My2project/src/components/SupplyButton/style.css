@@ -1,0 +1,63 @@
+.supply-button {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.supply-button .div {
+  background-color: #008aff;
+  border-radius: 3px;
+  height: 3px;
+  position: relative;
+  width: 234px;
+}
+
+.supply-button .text-wrapper-2 {
+  color: #008aff;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.47px;
+  line-height: 32.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.supply-button .earn-interest-by-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 44.19px 0px 0px;
+  position: relative;
+}
+
+.supply-button .earn-interest-by {
+  color: #636161;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -5px;
+  position: relative;
+  width: fit-content;
+}
+
+/* Styles for 768px and above */
+@media (min-width: 768px) {
+  .supply-button .earn-interest-by {
+    /* Tweak font size here (e.g., 12px, 13px) */
+    font-size: 14px;
+
+    /* Tweak positioning here:
+       - margin-top: negative to move up (e.g., -10px), positive to move down (e.g., 0px)
+       - margin-left: negative to move left (e.g., -10px), positive to move right (e.g., 5px)
+    */
+    margin-top: -8px; /* Moved slightly up */
+    margin-left: 2px; /* Moved slightly left */
+  }
+}

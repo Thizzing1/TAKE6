@@ -1,0 +1,1 @@
+export { MonetaryAuthorityOfSingaporeLogoTrustedByTheBest478_4 } from "./MonetaryAuthorityOfSingaporeLogoTrustedByTheBest478_4";

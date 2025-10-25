@@ -1,0 +1,82 @@
+.nav-bar-includes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 24px;
+  position: relative;
+  width: 1440px;
+}
+
+.nav-bar-includes .header-2 {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 0px #0000000f;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0px;
+  max-width: 1082px;
+  padding: 24px 48px 0px;
+  position: relative;
+  width: 1082px;
+}
+
+.nav-bar-includes .container-47 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav-bar-includes .brand-name-aave-logo-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.nav-bar-includes .brand-name-aave-logo-4 {
+  height: 16px !important;
+  position: relative !important;
+  width: 94px !important;
+}
+
+.nav-bar-includes .nav-margin {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 478.17px;
+  padding: 0px 0px 0px 413.83px;
+  position: relative;
+}
+
+.nav-bar-includes .nav {
+  height: 32.68px;
+  position: relative;
+  width: 478.17px;
+}
+
+.nav-bar-includes .open-app-button-instance {
+  left: 332px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.nav-bar-includes .container-48 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.nav-bar-includes .design-component-instance-node-5 {
+  flex: 0 0 auto !important;
+}

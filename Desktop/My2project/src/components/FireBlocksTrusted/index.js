@@ -1,0 +1,1 @@
+export { FireBlocksTrusted } from "./FireBlocksTrusted";

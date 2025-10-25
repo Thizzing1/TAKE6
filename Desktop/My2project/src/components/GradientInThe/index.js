@@ -1,0 +1,1 @@
+export { GradientInThe } from "./GradientInThe";

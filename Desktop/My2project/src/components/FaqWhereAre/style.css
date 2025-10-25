@@ -1,0 +1,58 @@
+.FAQ-where-are {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 6px;
+  position: relative;
+  width: 438px;
+}
+
+.FAQ-where-are .button-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 10px 8px 4px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ-where-are .heading-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 0.59px;
+  position: relative;
+}
+
+.FAQ-where-are .text-wrapper-17 {
+  color: #201c1c;
+  font-family: var(--aave-com-semantic-heading-3-font-family);
+  font-size: var(--aave-com-semantic-heading-3-font-size);
+  font-style: var(--aave-com-semantic-heading-3-font-style);
+  font-weight: var(--aave-com-semantic-heading-3-font-weight);
+  letter-spacing: var(--aave-com-semantic-heading-3-letter-spacing);
+  line-height: var(--aave-com-semantic-heading-3-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ-where-are .plusicon-in-faq-29 {
+  height: 52px !important;
+  position: relative !important;
+  width: 52px !important;
+}
+
+.FAQ-where-are .rectangle-2 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 438px;
+}

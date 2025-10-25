@@ -1,0 +1,1 @@
+export { FaqDoesAaveHave } from "./FaqDoesAaveHave";

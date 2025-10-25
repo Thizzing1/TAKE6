@@ -1,0 +1,1 @@
+export { MonetaryAuthorityWrapper } from "./MonetaryAuthorityWrapper";

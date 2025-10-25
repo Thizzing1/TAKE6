@@ -1,0 +1,1 @@
+export { HelpSupportFooter } from "./HelpSupportFooter";

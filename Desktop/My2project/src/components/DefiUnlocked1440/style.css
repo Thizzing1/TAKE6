@@ -1,0 +1,157 @@
+.defi-unlocked-1440 {
+  height: 648px;
+  position: relative;
+  width: 986px;
+}
+
+.defi-unlocked-1440 .background-21 {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.01px;
+  height: 300px;
+  justify-content: flex-end;
+  left: 0;
+  overflow: hidden;
+  padding: 32px 40px;
+  position: absolute;
+  top: 0;
+  width: 473px;
+}
+
+.defi-unlocked-1440 .swap-animation-under-3 {
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 473px;
+}
+
+.defi-unlocked-1440 .heading-margin-3 {
+  align-self: stretch;
+  height: 48.39px;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked-1440 .heading-16 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1px;
+  width: 393px;
+}
+
+.defi-unlocked-1440 .text-wrapper-63 {
+  color: #201c1c;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.defi-unlocked-1440 .container-63 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.defi-unlocked-1440 .text-wrapper-64 {
+  align-self: stretch;
+  color: #636161;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: var(--aave-com-semantic-button-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.defi-unlocked-1440 .background-22 {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.01px;
+  height: 300px;
+  justify-content: flex-end;
+  left: 513px;
+  overflow: hidden;
+  padding: 32px 40px;
+  position: absolute;
+  top: 0;
+  width: 473px;
+}
+
+.defi-unlocked-1440 .stake-animation-3 {
+  height: 150px;
+  left: 205px;
+  position: absolute;
+  top: 0;
+  width: 268px;
+}
+
+.defi-unlocked-1440 .background-23 {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.01px;
+  height: 300px;
+  justify-content: flex-end;
+  left: 0;
+  overflow: hidden;
+  padding: 32px 40px;
+  position: absolute;
+  top: 348px;
+  width: 473px;
+}
+
+.defi-unlocked-1440 .background-24 {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.01px;
+  height: 300px;
+  justify-content: flex-end;
+  left: 513px;
+  overflow: hidden;
+  padding: 32px 40px;
+  position: absolute;
+  top: 348px;
+  width: 473px;
+}
+
+.defi-unlocked-1440 .multi-network-3 {
+  height: 169px;
+  left: 236px;
+  position: absolute;
+  top: 0;
+  width: 237px;
+}
+
+.defi-unlocked-1440 .health-factor-instance {
+  background-image: unset !important;
+  background-size: unset !important;
+  left: 191px !important;
+  position: absolute !important;
+  top: -48px !important;
+}

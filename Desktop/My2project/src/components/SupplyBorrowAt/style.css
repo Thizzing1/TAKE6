@@ -1,0 +1,79 @@
+.supply-borrow-at {
+  align-items: flex-start;
+  display: flex;
+  gap: 48px;
+  padding: 36px 24px 0px;
+  position: relative;
+  width: 986px;
+}
+
+.supply-borrow-at .supply-button-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16.4px;
+  position: relative;
+}
+
+.supply-borrow-at .background-18 {
+  background-color: #008aff;
+  border-radius: 3px;
+  height: 3px;
+  position: relative;
+  width: 534px;
+}
+
+.supply-borrow-at .text-wrapper-56 {
+  color: #008aff;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.47px;
+  line-height: 32.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.supply-borrow-at .text-wrapper-57 {
+  color: #636161;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: var(--aave-com-semantic-button-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.supply-borrow-at .borrow-button-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.supply-borrow-at .background-19 {
+  background-color: #def6ff;
+  border-radius: 3px;
+  height: 3px;
+  position: relative;
+  width: 356px;
+}
+
+.supply-borrow-at .text-wrapper-58 {
+  color: #8f8e8e;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.47px;
+  line-height: 32.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

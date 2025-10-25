@@ -1,0 +1,1 @@
+export { TechnicalPaper } from "./TechnicalPaper";

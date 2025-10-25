@@ -1,0 +1,124 @@
+/* Styles for the OpenAppButton container */
+.open-app-button {
+  align-items: center;
+  background-color: #201c1c;
+  border-radius: 50px;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  height: 33px;
+  padding: 8px 16px;
+  min-width: 100px;
+  box-sizing: border-box;
+  position: fixed !important;
+  top: 20px;
+  right: 20px;
+  left: auto !important;
+  z-index: 99999; /* Max priority */
+  clip-path: none;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translate(0, 0); /* Force render */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the button */
+.open-app-button:hover {
+  background-color: #4a4a4a; /* Subtle grey shade for hover */
+  transform: translate(0, -2px); /* Retain slight lift effect */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+/* Styles for the text inside OpenAppButton */
+.open-app-button .text-wrapper-28 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.09px;
+  line-height: 14.7px;
+  white-space: nowrap;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+/* Hover effect for the text */
+.open-app-button:hover .text-wrapper-28 {
+  color: #e0e0e0; /* Slightly lighter text color for contrast */
+}
+
+/* Ensure parent doesn’t clip (apply if needed) */
+.container-164, header, .element-light {
+  overflow: visible !important;
+  position: static !important; /* Prevent trapping fixed */
+}
+
+/* Responsive adjustments for positioning */
+@media (min-width: 320px) and (max-width: 480px) {
+  .open-app-button {
+    top: 10px !important;
+    right: 50px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .open-app-button {
+    top: 20px !important;
+    right: 20px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+  .open-app-button {
+    top: 20px !important;
+    right: 20px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .open-app-button {
+    top: 20px !important;
+    right: 20px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .open-app-button {
+    top: 20px !important;
+    right: 30px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 1441px) {
+  .open-app-button {
+    top: 20px !important;
+    right: 40px !important;
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translate(0, 0);
+  }
+}

@@ -1,0 +1,56 @@
+.FAQ-does-aave-have-wrapper {
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 6px;
+  position: relative;
+  width: 548.67px;
+}
+
+.FAQ-does-aave-have-wrapper .button-7 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 10px 8px 4px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ-does-aave-have-wrapper .heading-13 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.FAQ-does-aave-have-wrapper .text-wrapper-50 {
+  color: #201c1c;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.33px;
+  line-height: 24.3px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ-does-aave-have-wrapper .plusicon-in-faq-42 {
+  height: 52px !important;
+  position: relative !important;
+  width: 52px !important;
+}
+
+.FAQ-does-aave-have-wrapper .rectangle-7 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 549px;
+}

@@ -1,0 +1,136 @@
+/* Carousel wrapper */
+.looping-logo-trusted {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 126px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Logo container; animates infinite loop */
+.looping-logo-trusted .container-14 {
+  align-items: center;
+  display: inline-flex;
+  gap: 0px;
+  position: relative;
+  animation: slide 89s linear infinite !important; /* Fallback duration */
+  white-space: nowrap;
+  will-change: transform;
+}
+
+/* Individual logo wrapper */
+.looping-logo-trusted .container-15 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  min-width: 80px;
+  transform: scale(1) !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo sizes */
+.looping-logo-trusted .JP-morgan-chase-logo-478-trusted-by-the-best-1 {
+  height: 24.26px;
+  width: 173.53px;
+}
+.looping-logo-trusted .monetary-authority-of-singapore-logo-478-trusted-by-the-best-1 {
+  height: 37.13px;
+  width: 136.41px;
+}
+.looping-logo-trusted .fire-block-logo-text {
+  height: 18.56px;
+  width: 118.54px;
+}
+.looping-logo-trusted .consensys-logo-478-trusted-by-the-best-1 {
+  height: 25.7px;
+  width: 121.41px;
+}
+.looping-logo-trusted .banco-central-do-brasil-logo-478-trusted-by-the-best-1 {
+  height: 45.7px;
+  width: 82.84px;
+}
+.looping-logo-trusted .centrifuge-logo-478-trusted-by-the-best-1 {
+  height: 29.98px;
+  width: 99.27px;
+}
+
+/* Infinite loop animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--logo-set-width, 1115.964px)));
+  }
+}
+
+/* Pause on hover */
+.looping-logo-trusted:hover .container-14 {
+  animation-play-state: paused !important;
+}
+
+/* Left gradient */
+.element-light .gradient,
+.element-light .gradient-2 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.74) 19%,
+    rgba(255, 255, 255, 0.54) 34%,
+    rgba(255, 255, 255, 0.38) 47%,
+    rgba(255, 255, 255, 0.28) 56%,
+    rgba(255, 255, 255, 0.195) 65%,
+    rgba(255, 255, 255, 0.12) 73%,
+    rgba(255, 255, 255, 0.075) 80%,
+    rgba(255, 255, 255, 0.04) 86%,
+    rgba(255, 255, 255, 0.015) 91%,
+    rgba(255, 255, 255, 0.005) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Right gradient; mirrored */
+.element-light .gradient-2 {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.74) 19%,
+    rgba(255, 255, 255, 0.54) 34%,
+    rgba(255, 255, 255, 0.38) 47%,
+    rgba(255, 255, 255, 0.28) 56%,
+    rgba(255, 255, 255, 0.195) 65%,
+    rgba(255, 255, 255, 0.12) 73%,
+    rgba(255, 255, 255, 0.075) 80%,
+    rgba(255, 255, 255, 0.04) 86%,
+    rgba(255, 255, 255, 0.015) 91%,
+    rgba(255, 255, 255, 0.005) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+  right: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 991px) {
+  .looping-logo-trusted {
+    min-height: 126px;
+    max-width: 100%;
+  }
+  .looping-logo-trusted .container-14 {
+    gap: 0px;
+    animation: slide 30.2s linear infinite !important; /* Fallback mobile duration */
+  }
+  .looping-logo-trusted .container-15 {
+    transform: scale(0.8) !important;
+  }
+}

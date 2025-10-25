@@ -1,0 +1,32 @@
+/* Base styles for the SVG */
+.brand-name-aave-logo-4 {
+  display: inline-block;
+}
+
+/* Base styles for eyes */
+.eye-left,
+.eye-right {
+  transform-origin: center;
+}
+
+/* Animation applied twice on page load */
+.eye-left,
+.eye-right {
+  animation: eyeAnimation 2s ease-in-out 2; /* Run twice, 2s per cycle */
+}
+
+/* Keyframes for movement followed by blinking */
+@keyframes eyeAnimation {
+  /* Movement phase (0% to 50%) */
+  0% { transform: translateX(0); opacity: 1; }
+  12.5% { transform: translateX(3px); opacity: 1; } /* Move right */
+  37.5% { transform: translateX(-3px); opacity: 1; } /* Move left */
+  50% { transform: translateX(0); opacity: 1; } /* Back to center */
+
+  /* Blinking phase (60% to 80%) */
+  60% { transform: translateX(0); opacity: 0; } /* First blink (closed) */
+  62.5% { transform: translateX(0); opacity: 1; } /* Reopen */
+  75% { transform: translateX(0); opacity: 0; } /* Second blink */
+  77.5% { transform: translateX(0); opacity: 1; } /* Reopen */
+  100% { transform: translateX(0); opacity: 1; } /* Final state */
+}

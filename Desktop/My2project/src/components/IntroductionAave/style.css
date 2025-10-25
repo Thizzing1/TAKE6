@@ -1,0 +1,133 @@
+/* Base styles for IntroductionAave component */
+.introduction-aave {
+  background-color: #f7f6f6;
+  border-radius: 99px;
+  height: auto; /* Allow height to adjust */
+  width: 100%; /* Use full container width */
+  max-width: 100%; /* Prevent overflow */
+  box-sizing: border-box;
+  display: flex; /* Flexbox for internal layout */
+  align-items: center;
+  padding: 8px 12px; /* Consistent padding */
+  flex-wrap: nowrap; /* Prevent wrapping unless needed */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for the entire component */
+.introduction-aave:hover {
+  background-color: #e8e7e7; /* Slightly darker background */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+
+/* Text for "Introducing Aave's new visual identity" */
+.introduction-aave .introducing-aave-s {
+  color: #201c1c;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.09px;
+  line-height: 12.6px;
+  white-space: nowrap;
+  flex-shrink: 1; /* Allow text to shrink if needed */
+  width: auto; /* Remove fixed width */
+  max-width: 215px; /* Cap at original width */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* For hover */
+}
+
+/* Hover effect for main text link */
+.introduction-aave .introducing-aave-s:hover {
+  color: #000000; /* Darker text */
+
+}
+
+/* Container for "Read more" and arrow */
+.introduction-aave .container {
+  display: flex; /* Use flexbox instead of absolute positioning */
+  align-items: center;
+  height: 13px;
+  width: auto; /* Allow dynamic width */
+  margin-left: auto; /* Push to the right */
+  position: relative; /* Relative positioning for child elements */
+}
+
+/* Background dot */
+.introduction-aave .background {
+  background-color: #bcbaba;
+  border-radius: 2px;
+  height: 4px;
+  width: 4px;
+  flex-shrink: 0; /* Prevent dot from shrinking */
+  margin-right: 8px; /* Space from text */
+}
+
+/* "Read more" text */
+.introduction-aave .text-wrapper {
+  color: #636161;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.09px;
+  line-height: 12.6px;
+  white-space: nowrap;
+  width: auto; /* Remove fixed width */
+  flex-shrink: 1; /* Allow shrinking */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* For hover */
+}
+
+/* Hover effect for "Read more" text */
+.introduction-aave .text-wrapper:hover {
+  color: #201c1c; /* Match main text color */
+
+}
+
+/* Arrow icon */
+.introduction-aave .little-arrow {
+  height: 11px;
+  width: 12px;
+  flex-shrink: 0; /* Prevent arrow from shrinking */
+  margin-left: 8px; /* Space from "Read more" */
+  transition: transform 0.3s ease; /* For hover movement */
+}
+
+.introduction-aave .text-wrapper:hover + .little-arrow {
+  transform: translateX(3px); /* Move arrow right */
+}
+
+
+/* Responsive adjustments for screens 374px and below */
+@media (max-width: 374px) {
+  .element-light .introduction-aave-new-visual-identity {
+    max-width: 100%; /* Use full container width */
+    /* TWEAK SIZE HERE: Adjust max-width or min-width to your taste */
+    /* Example: max-width: 300px; or min-width: 150px; */
+  }
+
+  .introduction-aave {
+    padding: 6px 8px; /* Slightly reduce padding for smaller screens */
+    flex-wrap: nowrap; /* Ensure no wrapping */
+  }
+
+  .introduction-aave .introducing-aave-s {
+    font-size: 11px; /* Slightly smaller font */
+    line-height: 11.6px;
+    max-width: 60%; /* Limit text width to fit */
+  }
+
+  .introduction-aave .container {
+    margin-left: 8px; /* Reduce spacing */
+  }
+
+  .introduction-aave .text-wrapper {
+    font-size: 11px; /* Slightly smaller font */
+    line-height: 15px;
+  }
+
+  .introduction-aave .background {
+    margin-right: 6px; /* Adjust spacing */
+  }
+
+  .introduction-aave .little-arrow {
+    margin-left: 6px; /* Adjust spacing */
+  }
+}

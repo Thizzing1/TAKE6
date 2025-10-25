@@ -1,0 +1,1 @@
+export { TermsOfUseFooterWrapper } from "./TermsOfUseFooterWrapper";

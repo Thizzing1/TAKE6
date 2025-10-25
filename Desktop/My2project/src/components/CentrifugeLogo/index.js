@@ -1,0 +1,1 @@
+export { CentrifugeLogo } from "./CentrifugeLogo";

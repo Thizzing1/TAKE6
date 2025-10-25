@@ -1,0 +1,1 @@
+export { GoToForumInside } from "./GoToForumInside";
