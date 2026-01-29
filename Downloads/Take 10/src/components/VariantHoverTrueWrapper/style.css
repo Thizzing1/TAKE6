@@ -1,0 +1,32 @@
+.variant-hover-true-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 30px;
+  position: relative;
+}
+
+.variant-hover-true-wrapper .text-9 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.variant-hover-true-wrapper .text-9:hover {
+  color: #211c1c;
+}
+
+.variant-hover-true-wrapper .variant-5-two {
+  color: #ffffff;
+}
+
+.variant-hover-true-wrapper .variant-5-one {
+  color: #8f8e8e;
+}
+
+.variant-hover-true-wrapper:hover {
+  left: 180px;
+}

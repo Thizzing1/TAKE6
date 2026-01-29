@@ -1,0 +1,33 @@
+.div-wrapper {
+  align-items: flex-start;
+  background-color: #fbfbfa;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 457px;
+}
+
+.div-wrapper .frame {
+  align-self: stretch;
+  background-image: url(../../../static/img/vector-22.svg);
+  background-size: 100% 100%;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .group-33 {
+  height: 1px;
+  left: 78px;
+  position: absolute;
+  top: 192px;
+  width: 1px;
+}
+
+.div-wrapper .far-left-sky-blue-1440 {
+  left: 0 !important;
+  top: 21px !important;
+  transform: unset !important;
+}

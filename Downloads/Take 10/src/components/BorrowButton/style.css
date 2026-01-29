@@ -1,0 +1,23 @@
+.borrow-button {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 18px;
+}
+
+.borrow-button .text-wrapper-3 {
+  align-items: center;
+  color: #8f8e8e;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: -0.47px;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

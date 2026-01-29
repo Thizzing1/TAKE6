@@ -1,0 +1,6 @@
+.coinbaselogo {
+  background-image: url(../../../static/img/vector-96.svg);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 67px;
+}
