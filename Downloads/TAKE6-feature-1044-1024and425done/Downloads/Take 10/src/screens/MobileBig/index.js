@@ -1,0 +1,1 @@
+export { MobileBig } from "./MobileBig";

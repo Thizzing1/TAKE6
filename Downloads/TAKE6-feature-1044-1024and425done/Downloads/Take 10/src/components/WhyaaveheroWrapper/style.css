@@ -1,0 +1,39 @@
+.whyaavehero-wrapper {
+  height: 234px;
+  left: -4195px;
+  position: relative;
+  top: 17053px;
+  width: calc(100% + 4195px);
+}
+
+.whyaavehero-wrapper .vector-33 {
+  height: 100%;
+  left: -119.25%;
+  position: absolute;
+  top: 0;
+  width: 399.98%;
+}
+
+.whyaavehero-wrapper .overlap-group {
+  height: 234px;
+  left: -641px;
+  position: absolute;
+  top: 0;
+  width: 1705px;
+}
+
+.whyaavehero-wrapper .top {
+  height: 117px;
+  left: 263px;
+  position: absolute;
+  top: 0;
+  width: 1443px;
+}
+
+.whyaavehero-wrapper .bottom {
+  height: 117px;
+  left: 0;
+  position: absolute;
+  top: 117px;
+  width: 1443px;
+}

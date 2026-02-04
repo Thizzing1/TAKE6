@@ -1,0 +1,94 @@
+.savehero {
+  align-items: flex-start;
+  display: flex;
+  height: 169px;
+  justify-content: flex-end;
+  min-width: 237px;
+  position: absolute;
+  right: 0;
+  top: 18224px;
+}
+
+.savehero .overlap-group-2 {
+  height: 224px;
+  margin-top: -55.0px;
+  position: relative;
+  width: 365px;
+}
+
+.savehero .element-to-rush-out {
+  display: flex;
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 47px;
+  width: 130px;
+}
+
+.savehero .group-34 {
+  flex: 1;
+  position: relative;
+  width: 130px;
+}
+
+.savehero .vector-34 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 50.00%;
+  width: 100%;
+}
+
+.savehero .vector-35 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.savehero .element-nd-to-rush-out {
+  display: flex;
+  height: 186px;
+  left: 66px;
+  position: absolute;
+  top: 19px;
+  width: 186px;
+}
+
+.savehero .group-35 {
+  flex: 1;
+  position: relative;
+  width: 185.72px;
+}
+
+.savehero .vector-36 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100.00%;
+}
+
+.savehero .vector-37 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 50.00%;
+  width: 100.00%;
+}
+
+.savehero .element-st-to-rush-out {
+  display: flex;
+  height: 224px;
+  left: 141px;
+  position: absolute;
+  top: 0;
+  width: 224px;
+}
+
+.savehero .group-36 {
+  flex: 1;
+  position: relative;
+  width: 224px;
+}

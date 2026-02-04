@@ -1,0 +1,1 @@
+export { Ghohero } from "./Ghohero";
