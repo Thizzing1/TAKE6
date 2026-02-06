@@ -1,0 +1,15 @@
+.lineunder {
+  bottom: 0;
+  height: 9px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.lineunder .vector-11 {
+  height: 54.45%;
+  left: 0;
+  position: absolute;
+  top: 15.56%;
+  width: 99.00%;
+}

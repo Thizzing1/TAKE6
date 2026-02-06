@@ -1,0 +1,1 @@
+export { TabletBig } from "./TabletBig";

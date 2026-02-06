@@ -1,0 +1,15 @@
+.instagramlogo {
+  align-items: center;
+  display: flex;
+  height: 22px;
+  left: -16231px;
+  min-width: 19px;
+  padding: 0 0.0px;
+  position: relative;
+  top: 42823px;
+}
+
+.instagramlogo .clip-path-group {
+  height: 18px;
+  width: 18px;
+}

@@ -1,0 +1,31 @@
+.extensiveaudithero {
+  height: calc(100% - 24780px);
+  left: -20126px;
+  position: relative;
+  top: 24780px;
+  width: calc(100% + 20126px);
+}
+
+.extensiveaudithero .element-from-top {
+  height: 14.65%;
+  left: 7.91%;
+  position: absolute;
+  top: 25.28%;
+  width: 90.87%;
+}
+
+.extensiveaudithero .element-ndline-from-top {
+  height: 14.65%;
+  left: 21.70%;
+  position: absolute;
+  top: 42.86%;
+  width: 106.69%;
+}
+
+.extensiveaudithero .element-rdline-from-top {
+  height: 14.65%;
+  left: 30.22%;
+  position: absolute;
+  top: 60.44%;
+  width: 69.57%;
+}
