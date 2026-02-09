@@ -1,0 +1,1 @@
+export { TwoNdrainbowlineinfooter } from "./TwoNdrainbowlineinfooter";

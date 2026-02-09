@@ -1,0 +1,3927 @@
+.desktop {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.desktop .main {
+  align-self: stretch;
+  height: 11456.02px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .section {
+  height: 821px;
+  left: 227px;
+  position: absolute;
+  top: 164px;
+  width: calc(100% - 454px);
+}
+
+.desktop .heading-2 {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.desktop .say-hello-to {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #211c1c;
+  display: -webkit-box;
+  font-family: var(--aave-com-semantic-heading-1-font-family);
+  font-size: var(--aave-com-semantic-heading-1-font-size);
+  font-style: var(--aave-com-semantic-heading-1-font-style);
+  font-weight: var(--aave-com-semantic-heading-1-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-heading-1-letter-spacing);
+  line-height: var(--aave-com-semantic-heading-1-line-height);
+  margin-top: -1.00px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-left: -3.5px;
+  padding: 0.59px 0px 15.2px;
+  position: relative;
+  transform: rotate(-6.50deg);
+}
+
+.desktop .component-2 {
+  height: 49.01px;
+  position: relative;
+  width: 49.01px;
+}
+
+.desktop .vector-80 {
+  height: 105.35%;
+  left: -5.34%;
+  position: absolute;
+  top: -5.34%;
+  transform: rotate(6.50deg);
+  width: 105.34%;
+}
+
+.desktop .vector-81 {
+  height: 44.22%;
+  left: 8.93%;
+  position: absolute;
+  top: 8.21%;
+  transform: rotate(6.50deg);
+  width: 77.89%;
+}
+
+.desktop .group-49 {
+  height: 15.91%;
+  left: 31.67%;
+  position: absolute;
+  top: 37.34%;
+  width: 36.67%;
+}
+
+.desktop .vector-82 {
+  height: 99.98%;
+  left: -2.13%;
+  position: absolute;
+  top: 2.05%;
+  width: 43.38%;
+}
+
+.desktop .vector-83 {
+  height: 99.98%;
+  left: 54.13%;
+  position: absolute;
+  top: -12.73%;
+  width: 43.38%;
+}
+
+.desktop .group-50 {
+  height: 46.94%;
+  left: 42.96%;
+  position: absolute;
+  top: -30.61%;
+  width: 87.75%;
+}
+
+.desktop .vector-84 {
+  height: 108.87%;
+  left: -2.72%;
+  position: absolute;
+  top: -9.77%;
+  width: 95.09%;
+}
+
+.desktop .vector-85 {
+  height: 117.57%;
+  left: -2.72%;
+  position: absolute;
+  top: -9.77%;
+  width: 99.74%;
+}
+
+.desktop .text-wrapper-5 {
+  color: #9797ff;
+  font-family: var(--aave-com-inter-bold-italic-font-family);
+  font-size: var(--aave-com-inter-bold-italic-font-size);
+  font-style: var(--aave-com-inter-bold-italic-font-style);
+  font-weight: var(--aave-com-inter-bold-italic-font-weight);
+  height: 56.52%;
+  left: 20.93%;
+  letter-spacing: var(--aave-com-inter-bold-italic-letter-spacing);
+  line-height: var(--aave-com-inter-bold-italic-line-height);
+  position: absolute;
+  top: 19.57%;
+  white-space: nowrap;
+  width: 55.81%;
+}
+
+.desktop .text-wrapper-6 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #211c1c;
+  display: -webkit-box;
+  font-family: var(--aave-com-semantic-heading-1-font-family);
+  font-size: var(--aave-com-semantic-heading-1-font-size);
+  font-style: var(--aave-com-semantic-heading-1-font-style);
+  font-weight: var(--aave-com-semantic-heading-1-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-heading-1-letter-spacing);
+  line-height: var(--aave-com-semantic-heading-1-line-height);
+  margin-left: -3.5px;
+  margin-top: -1.00px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-10 {
+  height: 72px;
+  left: 153px;
+  position: absolute;
+  top: 75px;
+  width: calc(100% - 306px);
+}
+
+.desktop .text-wrapper-7 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  left: calc(50.00% - 336px);
+  letter-spacing: -0.47px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.desktop .container-11 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 118px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 610px);
+}
+
+.desktop .text-wrapper-8 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 138, 255, 1) 0%,
+    rgba(152, 150, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.47px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .lineunder9-00 {
+  bottom: -3px !important;
+}
+
+.desktop .lineunder-instance {
+  height: 54.44% !important;
+  top: 15.58% !important;
+}
+
+.desktop .p {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  left: calc(50.00% - 147px);
+  letter-spacing: -0.47px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 505px;
+}
+
+.desktop .text-wrapper-9 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  left: calc(50.00% - 210px);
+  letter-spacing: -0.47px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+  width: 438px;
+}
+
+.desktop .getearlyaccess-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 14px 0px 0px;
+  position: absolute;
+  top: 157px;
+  width: 100%;
+}
+
+.desktop .getearlyaccess-button {
+  top: unset !important;
+}
+
+.desktop .container-12 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  padding: 42px 0px 0px;
+  position: absolute;
+  top: 221px;
+  width: 100%;
+}
+
+.desktop .hero-png {
+  aspect-ratio: 0.63;
+  background-image: url(../../../static/img/hero-3-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  bottom: 0;
+  height: 514px;
+  left: 588px;
+  position: absolute;
+  width: 323px;
+}
+
+.desktop .hero-png-2 {
+  aspect-ratio: 0.63;
+  background-image: url(../../../static/img/hero-1-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  bottom: 0;
+  height: 514px;
+  left: 75px;
+  position: absolute;
+  width: 323px;
+}
+
+.desktop .hero-png-3 {
+  aspect-ratio: 0.58;
+  background-image: url(../../../static/img/hero-2-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 553.84px;
+  position: relative;
+  width: 323.33px;
+}
+
+.desktop .overlay-gradient-5 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(57, 209, 249, 1) 21%,
+      rgba(255, 180, 0, 1) 33%,
+      rgba(0, 130, 124, 1) 45%,
+      rgba(0, 138, 255, 1) 56%,
+      rgba(255, 50, 0, 1) 68%,
+      rgba(152, 150, 255, 1) 79%
+    );
+  border-radius: 2px;
+  height: 4px;
+  left: -48px;
+  position: absolute;
+  top: 817px;
+  width: calc(100% + 96px);
+}
+
+.desktop .section-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 227px;
+  max-width: 986px;
+  position: absolute;
+  top: 1185px;
+  width: calc(100% - 454px);
+}
+
+.desktop .header-heading {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 962px;
+}
+
+.desktop .text-wrapper-10 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.80px;
+  line-height: 54px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-13 {
+  align-self: stretch;
+  height: 396px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .background {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  gap: 168.15px;
+  left: 0;
+  padding: 32px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 505px);
+}
+
+.desktop .container-14 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.desktop .number-flow-react {
+  height: 90px;
+  position: relative;
+  width: 99.78px;
+}
+
+.desktop .margin {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 8px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group {
+  height: 90px;
+  position: relative;
+  width: 82.83px;
+}
+
+.desktop .container-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: calc(50.00% - 30px);
+}
+
+.desktop .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.desktop .text-wrapper-11 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: var(--aave-com-inter-semi-bold-font-family);
+  font-size: var(--aave-com-inter-semi-bold-font-size);
+  font-style: var(--aave-com-inter-semi-bold-font-style);
+  font-weight: var(--aave-com-inter-semi-bold-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-inter-semi-bold-letter-spacing);
+  line-height: var(--aave-com-inter-semi-bold-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 61px;
+  position: absolute;
+  top: calc(50.00% - 30px);
+}
+
+.desktop .text-wrapper-12 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: 21.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .element-opacity {
+  height: 112px;
+  margin-right: -1.12px;
+  position: relative;
+  width: 110.97px;
+}
+
+.desktop .group-51 {
+  background-image: url(../../../static/img/vector-170.svg);
+  background-size: 100% 100%;
+  height: 40.37%;
+  left: 59.26%;
+  position: absolute;
+  top: 59.63%;
+  width: 40.74%;
+}
+
+.desktop .group-52 {
+  background-image: url(../../../static/img/vector-171.svg);
+  background-size: 100% 100%;
+  height: 40.37%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40.74%;
+}
+
+.desktop .group-53 {
+  background-image: url(../../../static/img/vector-184.svg);
+  background-size: 100% 100%;
+  height: 84.40%;
+  left: 7.41%;
+  position: absolute;
+  top: 7.34%;
+  width: 85.18%;
+}
+
+.desktop .background-2 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-end;
+  left: 505px;
+  padding: 32px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 505px);
+}
+
+.desktop .element-thero {
+  align-self: stretch !important;
+  height: unset !important;
+  position: relative !important;
+  right: unset !important;
+  top: unset !important;
+}
+
+.desktop .container-17 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 32px;
+  padding: 0px 0px 0.59px;
+  position: absolute;
+  top: 32px;
+}
+
+.desktop .number-flow-react-2 {
+  height: 90px;
+  position: relative;
+  width: 198.92px;
+}
+
+.desktop .mask-group-2 {
+  height: 90px;
+  position: relative;
+  width: 182.91px;
+}
+
+.desktop .container-18 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 161px;
+  position: absolute;
+  top: calc(50.00% - 30px);
+}
+
+.desktop .background-3 {
+  align-items: flex-end;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  left: 0;
+  padding: 36.41px 32px 44px;
+  position: absolute;
+  top: 204px;
+  width: calc(100% - 505px);
+}
+
+.desktop .container-19 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 0.59px;
+  position: relative;
+}
+
+.desktop .number-flow-react-3 {
+  height: 90px;
+  position: relative;
+  width: 172.5px;
+}
+
+.desktop .mask-group-3 {
+  height: 90px;
+  position: relative;
+  width: 155.55px;
+}
+
+.desktop .container-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 134px;
+  position: absolute;
+  top: calc(50.00% - 30px);
+}
+
+.desktop .separator {
+  background-color: #f1f1ef;
+  height: 1px;
+  left: calc(50.00% - 541px);
+  position: absolute;
+  top: 1783px;
+  width: 1082px;
+}
+
+.desktop .section-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 150.08px 48px 64px;
+  position: absolute;
+  top: 1784px;
+  width: 100%;
+}
+
+.desktop .container-21 {
+  height: 513.97px;
+  max-width: 986px;
+  position: relative;
+  width: 986px;
+}
+
+.desktop .container-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.desktop .container-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  position: relative;
+}
+
+.desktop .heading-the-best {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -1.20px;
+  line-height: 40px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .reach-millions-of-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-right: -7.64px;
+  padding: 0px 27.64px 0px 0px;
+  position: relative;
+}
+
+.desktop .reach-millions-of {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .container-24 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.desktop .getearlyaccess-instance {
+  flex: 0 0 auto !important;
+  top: unset !important;
+}
+
+.desktop .design-component-instance-node {
+  flex: 0 0 auto !important;
+  left: unset !important;
+}
+
+.desktop .container-25 {
+  align-items: flex-end;
+  display: flex;
+  height: 329px;
+  justify-content: center;
+  left: 49.29%;
+  position: absolute;
+  top: calc(50.00% - 164px);
+  width: 57.78%;
+}
+
+.desktop .bestbuildwithaavehero-1440 {
+  bottom: unset !important;
+  height: 328.81px !important;
+  left: unset !important;
+  position: relative !important;
+  width: 569.69px !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-instance {
+  left: 17.70% !important;
+  top: 53.09% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-2 {
+  left: 35.38% !important;
+  top: 35.40% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-3 {
+  left: 53.08% !important;
+  top: 17.70% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-4 {
+  left: 17.68% !important;
+  top: 17.70% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-5 {
+  left: 53.08% !important;
+  top: 53.11% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-6 {
+  height: 99.45% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-7 {
+  height: 37.19% !important;
+  top: 19.27% !important;
+}
+
+.desktop .bestbuildwithaavehero-1440-8 {
+  height: 80.85% !important;
+}
+
+.desktop .overlay-shadow {
+  background-color: #ffffff01;
+  box-shadow: inset 0px -8px 16px 16px #ffffff;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.desktop .container-26 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 248px;
+  width: 100%;
+}
+
+.desktop .container-27 {
+  align-self: stretch;
+  height: 227.97px;
+  overflow: scroll;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-27::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.desktop .background-4 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  left: 0;
+  padding: 24px 32px;
+  position: absolute;
+  top: 0;
+  width: 60.00%;
+}
+
+.desktop .quote {
+  align-self: stretch;
+  height: 86.38px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-13 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 22px;
+  justify-content: center;
+  left: 7px;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 497px;
+}
+
+.desktop .strong-governance {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 65px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: 21px;
+  width: 523px;
+}
+
+.desktop .margin-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
+  min-height: 48px;
+  padding: 21.59px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-28 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 0px 4px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .div-wrapper-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-14 {
+  align-items: center;
+  align-self: stretch;
+  color: #211c1c;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .design-component-instance-node-2 {
+  left: unset !important;
+  top: unset !important;
+}
+
+.desktop .metamasklogo-instance {
+  height: 89.92% !important;
+}
+
+.desktop .metamasklogo-2 {
+  height: 42.26% !important;
+}
+
+.desktop .metamasklogo-3 {
+  height: 64.48% !important;
+}
+
+.desktop .background-5 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  left: 62.43%;
+  padding: 23px 32px 24px;
+  position: absolute;
+  top: 0;
+  width: 60.00%;
+}
+
+.desktop .quote-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 6.35px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-15 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .choice-its-proven {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-left: -2.38px;
+  margin-right: -2.38px;
+  margin-top: -0.52px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .container-29 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 0px 7px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .krakenlogo-instance {
+  height: 72.69% !important;
+}
+
+.desktop .background-6 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  left: 124.87%;
+  padding: 24px 32px;
+  position: absolute;
+  top: 0;
+  width: 60.00%;
+}
+
+.desktop .quote-3 {
+  align-self: stretch;
+  height: 107.97px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .aave-has-been-a {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 22px;
+  justify-content: center;
+  left: 5px;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 492px;
+}
+
+.desktop .success-since-the {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 87px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: 20px;
+  width: 515px;
+}
+
+.desktop .component-instance {
+  display: unset !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.desktop .component-1-instance {
+  flex: unset !important;
+  height: 100% !important;
+  left: 0 !important;
+  margin-left: unset !important;
+  margin-right: unset !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 97.66% !important;
+}
+
+.desktop .background-7 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  left: 187.30%;
+  padding: 24px 32px;
+  position: absolute;
+  top: 0;
+  width: 60.00%;
+}
+
+.desktop .text-wrapper-16 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 22px;
+  justify-content: center;
+  left: 5px;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 464px;
+}
+
+.desktop .standards-for {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 87px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: 20px;
+  width: 509px;
+}
+
+.desktop .component-3 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.desktop .background-8 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  left: 249.73%;
+  padding: 24px 32px;
+  position: absolute;
+  top: 0;
+  width: 60.00%;
+}
+
+.desktop .aave-has-played-a {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 22px;
+  justify-content: center;
+  left: 5px;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 490px;
+}
+
+.desktop .defi-ecosystem-by {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  height: 65px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  position: absolute;
+  top: 21px;
+  width: 491px;
+}
+
+.desktop .component-4 {
+  height: 71.12% !important;
+  top: 18.70% !important;
+}
+
+.desktop .component-5 {
+  height: 57.54% !important;
+}
+
+.desktop .component-6 {
+  height: 77.75% !important;
+  top: 10.82% !important;
+}
+
+.desktop .component-7 {
+  top: 32.50% !important;
+}
+
+.desktop .gradient-3 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 100%;
+  left: -1px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.desktop .gradient-4 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 100%;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 64px;
+}
+
+.desktop .caurosel-button-1440 {
+  left: calc(50.00% - 35px) !important;
+  position: absolute !important;
+}
+
+.desktop .section-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 48px 72px;
+  position: absolute;
+  top: 2512px;
+  width: 100%;
+}
+
+.desktop .logo-components-move-only-the-component-integrated-in-it {
+  background-image: url(../../../static/img/vector-301.png) !important;
+  height: 13.31px !important;
+  position: relative !important;
+  width: 74.54px !important;
+}
+
+.desktop .logo-components-move-instance {
+  background-image: url(../../../static/img/vector-306.png) !important;
+  height: 28.41px !important;
+  position: relative !important;
+  width: 51.47px !important;
+}
+
+.desktop .logo-components-move-only-the-component-integrated-in-it-instance {
+  top: 2.95% !important;
+}
+
+.desktop .logo-components-move-2 {
+  width: 25.67% !important;
+}
+
+.desktop .logo-components-move-3 {
+  height: 13.31px !important;
+  position: relative !important;
+  width: 74.54px !important;
+}
+
+.desktop .logo-components-move-4 {
+  height: 68.39% !important;
+}
+
+.desktop .logo-components-move-5 {
+  height: 96.14% !important;
+}
+
+.desktop .logo-components-move-6 {
+  background-image: url(../../../static/img/vector-100.svg) !important;
+  height: 28.41px !important;
+  position: relative !important;
+  width: 51.47px !important;
+}
+
+.desktop .horizontal-divider-4 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #f1f1ef;
+  bottom: 1px;
+  height: 1px;
+  left: 179px;
+  position: absolute;
+  width: 1082px;
+}
+
+.desktop .section-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 80px 48px 100px;
+  position: absolute;
+  top: 2612px;
+  width: 100%;
+}
+
+.desktop .container-30 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 986px;
+  position: relative;
+  width: 986px;
+}
+
+.desktop .div-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-17 {
+  align-items: center;
+  align-self: stretch;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.80px;
+  line-height: 54px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.desktop .text-wrapper-18 {
+  align-items: center;
+  align-self: stretch;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.desktop .SVG-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 36px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .SVG {
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  height: 450px;
+  max-width: 986px;
+  position: relative;
+  width: 986px;
+}
+
+.desktop .container-31 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 48px;
+  padding: 36px 24px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .button-5 {
+  height: 91.41px;
+  position: relative;
+  width: 534px;
+}
+
+.desktop .background-9 {
+  background-color: #008aff;
+  border-radius: 3px;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.desktop .suppy-button-1440 {
+  left: 0 !important;
+  position: absolute !important;
+}
+
+.desktop .container-32 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 67px;
+  width: 100%;
+}
+
+.desktop .text-wrapper-19 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: var(--aave-com-semantic-button-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .button-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 356px;
+  position: relative;
+}
+
+.desktop .background-10 {
+  align-self: stretch;
+  background-color: #f1f1ef;
+  border-radius: 3px;
+  height: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .borrow-button-1440 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .horizontal-divider-5 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #f1f1ef;
+  bottom: 0;
+  height: 1px;
+  left: 179px;
+  position: absolute;
+  width: 1082px;
+}
+
+.desktop .aboutaavehero-1440 {
+  background-image: url(../../../static/img/2.png) !important;
+  position: absolute !important;
+}
+
+.desktop .section-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 100px 48px;
+  position: absolute;
+  top: 3522px;
+  width: 100%;
+}
+
+.desktop .container-33 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 72px;
+  justify-content: center;
+  position: relative;
+  width: 986px;
+}
+
+.desktop .margin-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: 457px;
+}
+
+.desktop .container-34 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0px 0px 17px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-20 {
+  align-items: center;
+  align-self: stretch;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.80px;
+  line-height: 54px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .text-wrapper-21 {
+  align-items: center;
+  align-self: stretch;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .container-35 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  width: 457px;
+}
+
+.desktop .div-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .whyaavehero-instance-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .whyaavehero1-1440 {
+  align-items: unset !important;
+  align-self: stretch !important;
+  display: unset !important;
+  left: unset !important;
+  min-width: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .whyaavehero-instance {
+  left: 0 !important;
+  margin-bottom: unset !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.desktop .container-36 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  padding: 19.5px 0px 21.09px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-37 {
+  align-items: flex-start;
+  display: flex;
+  max-width: 102px;
+  position: relative;
+  width: 102px;
+}
+
+.desktop .text-wrapper-22 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.48px;
+  line-height: 25.2px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-38 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 58px;
+}
+
+.desktop .text-wrapper-23 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #211c1c;
+  display: -webkit-box;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.48px;
+  line-height: 25.2px;
+  margin-top: -1.00px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .text-wrapper-24 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: 21.6px;
+  opacity: 0.7;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .whyaavehero2-1440 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .whyaavehero2-1440-instance {
+  width: 100% !important;
+}
+
+.desktop .container-39 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 66px;
+}
+
+.desktop .whyaavehero-3-1440-wrapper {
+  align-self: stretch;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .whyaavehero-3-1440-instance {
+  top: -3px !important;
+}
+
+.desktop .whyaavehero-2 {
+  background-image: url(../../../static/img/vector-243.svg) !important;
+}
+
+.desktop .container-40 {
+  align-self: stretch;
+  height: 88.19px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-41 {
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  max-width: 102px;
+  position: absolute;
+  top: 20px;
+  width: calc(100% - 355px);
+}
+
+.desktop .container-42 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 48px;
+}
+
+.desktop .average-stablecoin-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 114px;
+  opacity: 0.7;
+  padding: 0px 38.77px 0px 0px;
+  position: absolute;
+  top: 24px;
+}
+
+.desktop .average-stablecoin {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: 21.6px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .container-43 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.desktop .background-11 {
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  height: 250px;
+  position: relative;
+  width: 457px;
+}
+
+.desktop .whyaavehero-4-wrapper {
+  align-items: flex-start;
+  background-color: #fbfbfa;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  left: -5px;
+  overflow: hidden;
+  position: absolute;
+  top: -7px;
+  width: 457px;
+}
+
+.desktop .whyaavehero-4-instance {
+  align-self: stretch !important;
+  background-image: url(../../../static/img/vector-23.svg) !important;
+  width: 100% !important;
+}
+
+.desktop .whyaavehero-3 {
+  height: 92.19% !important;
+  top: -92.37% !important;
+  transform: unset !important;
+}
+
+.desktop .container-44 {
+  height: 88.19px;
+  position: relative;
+  width: 457px;
+}
+
+.desktop .container-45 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 43px;
+}
+
+.desktop .container-46 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 114px;
+  opacity: 0.7;
+  padding: 0px 36.02px 0px 0px;
+  position: absolute;
+  top: 24px;
+}
+
+.desktop .section-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 227px;
+  max-width: 986px;
+  position: absolute;
+  top: 5324px;
+  width: calc(100% - 454px);
+}
+
+.desktop .heading-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-47 {
+  align-self: stretch;
+  height: 648px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .background-12 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 0;
+  overflow: hidden;
+  padding: 195.6px 40px 32px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 513px);
+}
+
+.desktop .earnhero-1440 {
+  align-items: unset !important;
+  display: unset !important;
+  justify-content: unset !important;
+  min-width: unset !important;
+  top: 0 !important;
+  width: 268px !important;
+}
+
+.desktop .earnhero-instance {
+  left: 1px !important;
+  margin-top: unset !important;
+  position: absolute !important;
+  top: -146px !important;
+}
+
+.desktop .heading-margin {
+  align-self: stretch;
+  height: 48.41px;
+  margin-top: -0.01px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .heading-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1px;
+  width: 100%;
+}
+
+.desktop .text-wrapper-25 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.48px;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-48 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-top: -0.01px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-26 {
+  align-items: center;
+  align-self: stretch;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-button-font-family);
+  font-size: var(--aave-com-semantic-button-font-size);
+  font-style: var(--aave-com-semantic-button-font-style);
+  font-weight: var(--aave-com-semantic-button-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-button-letter-spacing);
+  line-height: var(--aave-com-semantic-button-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .background-13 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 513px;
+  overflow: hidden;
+  padding: 195.6px 40px 32px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 513px);
+}
+
+.desktop .swaphero-1440 {
+  align-items: unset !important;
+  display: unset !important;
+  justify-content: unset !important;
+  min-width: unset !important;
+  top: 0 !important;
+  width: 473px !important;
+}
+
+.desktop .swaphero-instance {
+  left: 173px !important;
+  margin-top: unset !important;
+  position: absolute !important;
+  top: -159px !important;
+}
+
+.desktop .background-14 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 0;
+  overflow: hidden;
+  padding: 171.6px 40px 32px;
+  position: absolute;
+  top: 348px;
+  width: calc(100% - 513px);
+}
+
+.desktop .savehero-1440 {
+  align-items: unset !important;
+  display: unset !important;
+  justify-content: unset !important;
+  min-width: unset !important;
+  top: 0 !important;
+  width: 237px !important;
+}
+
+.desktop .savehero-instance {
+  left: 27px !important;
+  margin-top: unset !important;
+  top: -52px !important;
+}
+
+.desktop .savehero-1440-instance {
+  height: 32.83% !important;
+  width: 91.59% !important;
+}
+
+.desktop .savehero-2 {
+  width: 91.59% !important;
+}
+
+.desktop .savehero-3 {
+  width: 42.44% !important;
+}
+
+.desktop .savehero-4 {
+  height: 26.10% !important;
+  width: 42.44% !important;
+}
+
+.desktop .background-15 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 513px;
+  overflow: hidden;
+  padding: 195.6px 40px 32px;
+  position: absolute;
+  top: 348px;
+  width: calc(100% - 513px);
+}
+
+.desktop .healthfactorhero-1440 {
+  background-image: url(../../../static/img/clip-path-group-5.png) !important;
+  right: -120px !important;
+  top: -48px !important;
+}
+
+.desktop .section-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  left: 227px;
+  max-width: 986px;
+  position: absolute;
+  top: 6274px;
+  width: calc(100% - 454px);
+}
+
+.desktop .container-49 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-50 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 480px;
+  position: relative;
+  width: 480px;
+}
+
+.desktop .text-wrapper-27 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-51 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 72px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .background-16 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .background-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #f7f6f6;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.desktop .extensiveaudithero-1440 {
+  height: 200.38px !important;
+  left: unset !important;
+  top: unset !important;
+  width: 385px !important;
+}
+
+.desktop .container-52 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 39px 48px 40px;
+  position: relative;
+  width: 493px;
+}
+
+.desktop .text-wrapper-28 {
+  align-items: center;
+  align-self: stretch;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.48px;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .horizontal-divider-6 {
+  align-self: stretch;
+  background-color: #e6e6e4;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .design-component-instance-node-3 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.desktop .bugbountyhero-1440 {
+  align-items: unset !important;
+  align-self: stretch !important;
+  display: unset !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  left: unset !important;
+  min-width: unset !important;
+  padding: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .bugbountyhero-instance {
+  left: 134px !important;
+  margin-bottom: unset !important;
+  top: 67px !important;
+}
+
+.desktop .bugbountyhero-1440-instance {
+  height: 96.65% !important;
+  width: 96.35% !important;
+}
+
+.desktop .bugbountyhero-2 {
+  height: 51.76% !important;
+  left: 24.03% !important;
+  top: 23.21% !important;
+  width: 100.12% !important;
+}
+
+.desktop .bugbountyhero-3 {
+  height: 51.76% !important;
+  left: -25.97% !important;
+  width: 100.12% !important;
+}
+
+.desktop .bugbountyhero-4 {
+  top: 46px !important;
+}
+
+.desktop .bugbountyhero-5 {
+  top: 84px !important;
+}
+
+.desktop .bugbountyhero-6 {
+  top: 121px !important;
+}
+
+.desktop .bugbountyhero-7 {
+  top: 159px !important;
+}
+
+.desktop .shortfallsecuredhero-1440 {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .five-yearsstronghero-1440 {
+  align-items: unset !important;
+  align-self: stretch !important;
+  display: unset !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  justify-content: unset !important;
+  left: unset !important;
+  min-width: unset !important;
+  padding: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .element-instance {
+  left: 115px !important;
+  top: 70px !important;
+}
+
+.desktop .element-yearsstronghero-instance {
+  top: 44px !important;
+}
+
+.desktop .five-yearsstronghero-1440-instance {
+  height: 39px !important;
+}
+
+.desktop .section-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  left: 227px;
+  max-width: 986px;
+  position: absolute;
+  top: 7883px;
+  width: calc(100% - 454px);
+}
+
+.desktop .text-wrapper-29 {
+  align-items: center;
+  align-self: stretch;
+  color: #211c1c;
+  display: flex;
+  font-family: var(--aave-com-semantic-heading-2-font-family);
+  font-size: var(--aave-com-semantic-heading-2-font-size);
+  font-style: var(--aave-com-semantic-heading-2-font-style);
+  font-weight: var(--aave-com-semantic-heading-2-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-heading-2-letter-spacing);
+  line-height: var(--aave-com-semantic-heading-2-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.desktop .text-wrapper-30 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 27px;
+  margin-right: -4.00px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-53 {
+  align-self: stretch;
+  height: 539.78px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .ghohero1-1440-wrapper {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 385px);
+}
+
+.desktop .ghohero1-1440 {
+  align-items: unset !important;
+  align-self: stretch !important;
+  display: unset !important;
+  height: 539.78px !important;
+  left: unset !important;
+  min-width: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.desktop .ghohero-instance {
+  left: -117px !important;
+  margin-left: unset !important;
+  margin-top: unset !important;
+  position: absolute !important;
+  top: -38px !important;
+}
+
+.desktop .background-18 {
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 258px;
+  left: 625px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 625px);
+}
+
+.desktop .container-54 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 32px;
+  max-height: 26px;
+  position: relative;
+  width: 296.75px;
+}
+
+.desktop .container-55 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 42px;
+}
+
+.desktop .container-56 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  gap: 6px;
+  height: 21.59px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 7.2px;
+  max-height: 21.59px;
+  padding: 0px 0px 1.59px;
+  position: relative;
+  width: 296.75px;
+}
+
+.desktop .text-wrapper-31 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #636161;
+  display: -webkit-box;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-top: -1.80px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .component-1-37-1 {
+  height: 4px !important;
+  position: relative !important;
+  width: 4px !important;
+}
+
+.desktop .text-wrapper-32 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #8f8e8e;
+  display: -webkit-box;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-top: -1.80px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .ghohero2-1440 {
+  height: 139.09px !important;
+  left: unset !important;
+  margin-left: 32px !important;
+  margin-top: 0 !important;
+  min-width: 296.72px !important;
+  position: unset !important;
+  top: unset !important;
+}
+
+.desktop .background-19 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7.7px;
+  left: 625px;
+  overflow: hidden;
+  padding: 31.5px 32px 69.01px;
+  position: absolute;
+  top: 282px;
+  width: calc(100% - 625px);
+}
+
+.desktop .container-57 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2.66e-14px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-58 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 136px;
+}
+
+.desktop .container-59 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  height: 61.89px;
+  padding: 0px 0px 41.89px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .text-wrapper-33 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .text-wrapper-34 {
+  align-items: center;
+  color: #8f8e8e;
+  display: flex;
+  font-family: var(--aave-com-semantic-quote-font-family);
+  font-size: var(--aave-com-semantic-quote-font-size);
+  font-style: var(--aave-com-semantic-quote-font-style);
+  font-weight: var(--aave-com-semantic-quote-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-quote-letter-spacing);
+  line-height: var(--aave-com-semantic-quote-line-height);
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .ghohero-2 {
+  height: 54.08px;
+  position: relative;
+  width: 296.75px;
+}
+
+.desktop .vector-86 {
+  height: 58.70%;
+  left: 94.05%;
+  position: absolute;
+  top: -26.72%;
+  width: 10.70%;
+}
+
+.desktop .vector-87 {
+  height: 100.00%;
+  left: 0;
+  position: absolute;
+  top: 2.63%;
+  width: 99.99%;
+}
+
+.desktop .radar-animation {
+  background-image: url(../../../static/img/vector-266.svg);
+  background-size: 100% 100%;
+  height: 27.72%;
+  left: 96.87%;
+  position: absolute;
+  top: -11.23%;
+  width: 5.05%;
+}
+
+.desktop .section-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  left: 227px;
+  max-width: 986px;
+  position: absolute;
+  top: 8844px;
+  width: calc(100% - 454px);
+}
+
+.desktop .container-60 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 9px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-61 {
+  align-self: stretch;
+  position: relative;
+  width: 322.66px;
+}
+
+.desktop .link-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 221px);
+}
+
+.desktop .link {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-62 {
+  align-items: center;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.desktop .aaveeverywhereiconbackground1-1440 {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 101.56px !important;
+}
+
+.desktop .icon-instance-node {
+  height: 100% !important;
+  left: 0 !important;
+  object-fit: cover !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+}
+
+.desktop .background-border {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 5.79px;
+  justify-content: center;
+  left: -41px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-63 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.desktop .text-wrapper-35 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .component-1-42 {
+  height: 12.01px !important;
+  width: 13.01px !important;
+}
+
+.desktop .container-64 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 111px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-2 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-65 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 221px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 221px);
+}
+
+.desktop .variant-170 {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 101.57px !important;
+}
+
+.desktop .background-border-3 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6.01px;
+  justify-content: center;
+  left: -13px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .text-wrapper-36 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: var(--aave-com-semantic-link-font-family);
+  font-size: var(--aave-com-semantic-link-font-size);
+  font-style: var(--aave-com-semantic-link-font-style);
+  font-weight: var(--aave-com-semantic-link-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-link-letter-spacing);
+  line-height: var(--aave-com-semantic-link-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .container-66 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 0;
+  position: absolute;
+  top: 111px;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-4 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -26px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-67 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 111px;
+  position: absolute;
+  top: 111px;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-5 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -9px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-68 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 221px;
+  position: absolute;
+  top: 111px;
+  width: calc(100% - 221px);
+}
+
+.desktop .link-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-bottom: -0.01px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-69 {
+  align-items: center;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-left: -0.01px;
+  margin-right: -0.01px;
+  overflow: hidden;
+  position: relative;
+}
+
+.desktop .background-border-6 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 6px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-70 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 0;
+  position: absolute;
+  top: 221px;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-7 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -2px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-71 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 111px;
+  position: absolute;
+  top: 221px;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-8 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 7px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-72 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 221px);
+  left: 221px;
+  position: absolute;
+  top: 221px;
+  width: calc(100% - 221px);
+}
+
+.desktop .background-border-9 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -3px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .container-73 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 322.67px;
+}
+
+.desktop .container-74 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .aaveeverywheremainiconbackground-1440-instance {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: unset !important;
+}
+
+.desktop .aaveeverywheremainicon-1440-instance {
+  height: 100% !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+}
+
+.desktop .background-border-10 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -15px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .background-border-11 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -55px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .background-border-12 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -8px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .background-border-13 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: -1px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .background-border-14 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 13px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .background-border-15 {
+  align-items: center;
+  background-color: #211c1c;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  box-shadow: 0px 6px 16px #0000001a, 0px 2px 3px #00000014;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 2px;
+  opacity: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: -46px;
+}
+
+.desktop .section-11 {
+  align-items: center;
+  aspect-ratio: 2.05;
+  background-color: #00498a;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 227px;
+  overflow: hidden;
+  padding: 134.6px 64px;
+  position: absolute;
+  top: 9507px;
+  width: calc(100% - 454px);
+}
+
+.desktop .governedbyyouhero-1440 {
+  align-items: unset !important;
+  display: unset !important;
+  height: 100.04% !important;
+  left: 0 !important;
+  min-width: unset !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 986px !important;
+}
+
+.desktop .governedbyyouhero-instance {
+  height: 1137px !important;
+  left: -74px !important;
+  margin-left: unset !important;
+  margin-top: unset !important;
+  top: -328px !important;
+}
+
+.desktop .governedbyyouhero-1440-instance {
+  height: 1011px !important;
+}
+
+.desktop .governedbyyouhero-2 {
+  height: 1137px !important;
+}
+
+.desktop .heading-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  min-width: 632.08px;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.desktop .div-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.desktop .text-wrapper-37 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.80px;
+  line-height: 54px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .container-75 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.desktop .container-76 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 156px;
+}
+
+.desktop .container-77 {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  min-width: 155.61px;
+  position: relative;
+}
+
+.desktop .text-wrapper-38 {
+  align-items: center;
+  color: #a8e2ff;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.80px;
+  line-height: 54px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .AAVE-token-holders-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 520px;
+  padding: 0px 34.47px 0px 34.45px;
+  position: relative;
+}
+
+.desktop .AAVE-token-holders {
+  align-items: center;
+  color: #8fc9ff;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-left: -5.46px;
+  margin-right: -5.46px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.desktop .link-margin {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 24px 0px 0px;
+  position: relative;
+}
+
+.desktop .section-12 {
+  align-items: flex-start;
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+  left: 227px;
+  min-height: 376px;
+  position: absolute;
+  top: 10162px;
+  width: calc(100% - 454px);
+}
+
+.desktop .heading-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 304.66px;
+}
+
+.desktop .one-thousand-four-hundred-and-forty-FAQ {
+  align-self: stretch !important;
+  height: unset !important;
+  left: unset !important;
+}
+
+.desktop .button-7 {
+  height: 52px !important;
+  margin-right: -0.28px !important;
+  position: relative !important;
+  width: 52px !important;
+}
+
+.desktop .button-8 {
+  height: 52px !important;
+  position: relative !important;
+  width: 52px !important;
+}
+
+.desktop .separator-2 {
+  background-color: #f1f1ef;
+  height: 1px;
+  left: calc(50.00% - 541px);
+  position: absolute;
+  top: 10638px;
+  width: 1082px;
+}
+
+.desktop .section-13 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 72px 48px;
+  position: absolute;
+  top: 10639px;
+  width: 100%;
+}
+
+.desktop .container-78 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 179px;
+  position: relative;
+  width: 986px;
+}
+
+.desktop .heading-be-the-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 314px;
+  padding: 0px 52.09px 0px 0px;
+  position: relative;
+}
+
+.desktop .heading-be-the {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.47px;
+  line-height: 36px;
+  margin-right: -13.09px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .background-20 {
+  align-items: flex-start;
+  background-color: #f7f6f6;
+  border-radius: 16px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 493px;
+  padding: 32px;
+  position: relative;
+}
+
+.desktop .container-79 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .label {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  height: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-80 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.desktop .text-wrapper-39 {
+  align-items: center;
+  color: #636161;
+  display: flex;
+  font-family: var(--aave-com-semantic-label-font-family);
+  font-size: var(--aave-com-semantic-label-font-size);
+  font-style: var(--aave-com-semantic-label-font-style);
+  font-weight: var(--aave-com-semantic-label-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-label-letter-spacing);
+  line-height: var(--aave-com-semantic-label-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .background-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 7px;
+  min-width: 6px;
+  padding: 1px 0px 0px;
+  position: relative;
+}
+
+.desktop .background-21 {
+  background-color: #9896ff;
+  border-radius: 6px;
+  height: 6px;
+  position: relative;
+  width: 6px;
+}
+
+.desktop .container-81 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .input {
+  background-color: #ffffff;
+  border-radius: 20px 6px 6px 20px;
+  flex: 1;
+  flex-grow: 1;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.desktop .container-82 {
+  align-items: flex-start;
+  background: none;
+  border: none;
+  color: #bcbaba;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: var(--aave-com-semantic-input-font-family);
+  font-size: var(--aave-com-semantic-input-font-size);
+  font-style: var(--aave-com-semantic-input-font-style);
+  font-weight: var(--aave-com-semantic-input-font-weight);
+  left: 16px;
+  letter-spacing: var(--aave-com-semantic-input-letter-spacing);
+  line-height: var(--aave-com-semantic-input-line-height);
+  margin-top: -1.00px;
+  padding: 0px 146.14px 0px 0px;
+  position: relative;
+  top: calc(50.00% - 10px);
+  white-space: nowrap;
+}
+
+.desktop .signup-button-instance {
+  left: 10.71% !important;
+  top: 12.50% !important;
+}
+
+.desktop .section-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.01px;
+  left: calc(50.00% - 541px);
+  padding: 0px 0px 72px;
+  position: absolute;
+  top: 10917px;
+  width: 1082px;
+}
+
+.desktop .footer {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #f7f6f6;
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 104.01px;
+  padding: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-83 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 96px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-84 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  padding: 0px 3.05px 0px 0px;
+  position: relative;
+}
+
+.desktop .aavefooterlogo-instance {
+  left: unset !important;
+  top: unset !important;
+  width: 93.5px !important;
+}
+
+.desktop .design-component-instance-node-4 {
+  height: 91.24% !important;
+  top: 3.69% !important;
+}
+
+.desktop .design-component-instance-node-5 {
+  height: 94.95% !important;
+}
+
+.desktop .aavefooterlogo-2 {
+  height: 37.87% !important;
+  top: 59.30% !important;
+}
+
+.desktop .aave-com-provides {
+  align-items: center;
+  color: #b6b6b6;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0.10px;
+  line-height: 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.desktop .nav {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 457px;
+}
+
+.desktop .list {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0px 64px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .item {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 99.03px;
+  position: relative;
+}
+
+.desktop .text-wrapper-40 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: var(--aave-com-semantic-item-font-family);
+  font-size: var(--aave-com-semantic-item-font-size);
+  font-style: var(--aave-com-semantic-item-font-style);
+  font-weight: var(--aave-com-semantic-item-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-item-letter-spacing);
+  line-height: var(--aave-com-semantic-item-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .component-6-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 0.8px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .component-6-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-right: -0.97px !important;
+  top: unset !important;
+}
+
+.desktop .item-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 106.05px;
+  position: relative;
+}
+
+.desktop .item-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 118.7px;
+  position: relative;
+}
+
+.desktop .container-85 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .container-86 {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.desktop .twitterlogo-instance {
+  left: unset !important;
+  top: unset !important;
+  width: 17.59px !important;
+}
+
+.desktop .instagramlogo-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  min-width: unset !important;
+  padding: unset !important;
+  top: unset !important;
+  width: 19px !important;
+}
+
+.desktop .design-component-instance-node-6 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 2px !important;
+}
+
+.desktop .linkdinlogo-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  min-width: unset !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.desktop .discordlogo-instance {
+  left: unset !important;
+  top: unset !important;
+  width: 20.89px !important;
+}
+
+.desktop .git-hublogo-instance {
+  left: unset !important;
+  top: unset !important;
+  width: 19.8px !important;
+}
+
+.desktop .one-strainbowlineinfooter-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  max-width: 1082px !important;
+  top: unset !important;
+  width: 1054px !important;
+}
+
+.desktop .design-component-instance-node-7 {
+  bottom: 0 !important;
+  flex: unset !important;
+  left: 0 !important;
+  position: absolute !important;
+  width: 100% !important;
+}
+
+.desktop .two-ndrainbowlineinfooter-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  max-width: 1082px !important;
+  top: unset !important;
+  width: 954px !important;
+}
+
+.desktop .three-rdrainbowlineinfooter-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  max-width: 1082px !important;
+  top: unset !important;
+  width: 854px !important;
+}
+
+.desktop .four-thrainbowlineinfooter-instance {
+  align-items: unset !important;
+  display: unset !important;
+  left: unset !important;
+  max-width: 1082px !important;
+  top: unset !important;
+  width: 754px !important;
+}
+
+.desktop .header-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 0px 24px;
+  position: fixed;
+  top: -24px;
+}
+
+.desktop .header {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 179px;
+  position: relative;
+}
+
+.desktop .container-87 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 438.22px;
+  max-width: 1082px;
+  padding: 24px 48px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.desktop .aavelogo-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.desktop .aavelogo-instance {
+  height: 99.98% !important;
+}
+
+.desktop .nav-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  margin-right: -11.22px;
+  position: relative;
+}
+
+.desktop .container-88 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  height: 32px;
+  position: relative;
+}
+
+.desktop .design-component-instance-node-8 {
+  left: unset !important;
+}
+
+.desktop .background-shadow {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px 1px #0000000f, 0px 6px 20px #0000000d;
+  height: 20px;
+  left: -181px;
+  opacity: 0;
+  position: absolute;
+  top: 32px;
+  width: 20px;
+}
+
+.desktop .component-8 {
+  left: 2.49% !important;
+  top: 16.45% !important;
+}
+
+.desktop .component-9 {
+  left: 10.16% !important;
+  top: 5.56% !important;
+}
+
+.desktop .component-10 {
+  bottom: -1px !important;
+  left: -14px !important;
+}
+
+.desktop .connect-wallet-button-1440 {
+  align-self: stretch !important;
+  background-color: #201c1c !important;
+  flex: 0 0 auto !important;
+  height: unset !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.desktop .horizontal-divider-7 {
+  background-color: #ffffff01;
+  box-shadow: 0px 1px 0px #0000000f;
+  height: 1px;
+  position: relative;
+  width: 1080px;
+}

@@ -1,0 +1,50 @@
+.learnmore-button-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  left: 1898px;
+  padding: 20.4px 0px 8px;
+  position: relative;
+  top: 114084px;
+}
+
+.learnmore-button-wrapper .horizontal-divider-3 {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 29, 29, 1) 0%,
+    rgba(34, 29, 29, 1) 33%,
+    rgba(33, 29, 29, 0) 33%,
+    rgba(33, 29, 29, 0) 67%,
+    rgba(34, 29, 29, 1) 67%,
+    rgba(34, 29, 29, 1) 100%
+  );
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+}
+
+.learnmore-button-wrapper .text-5 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: var(--aave-com-FT-regola-neue-medium-font-family);
+  font-size: var(--aave-com-FT-regola-neue-medium-font-size);
+  font-style: var(--aave-com-FT-regola-neue-medium-font-style);
+  font-weight: var(--aave-com-FT-regola-neue-medium-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-FT-regola-neue-medium-letter-spacing);
+  line-height: var(--aave-com-FT-regola-neue-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.learnmore-button-wrapper .component-1-23 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}

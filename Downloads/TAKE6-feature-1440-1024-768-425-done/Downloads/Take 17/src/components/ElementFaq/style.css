@@ -1,0 +1,41 @@
+.element-FAQ {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 31.5px;
+  padding: 0px 0px 32px;
+  position: relative;
+  top: 71px;
+}
+
+.element-FAQ .container-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0px 0px 6px;
+  position: relative;
+  width: 100%;
+}
+
+.element-FAQ .design-component-instance-node {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.element-FAQ .whatisaave-325 {
+  gap: 96.05px !important;
+  justify-content: unset !important;
+}
+
+.element-FAQ .seemore-button-instance {
+  flex: 0 0 auto !important;
+  gap: 4px !important;
+  left: unset !important;
+  top: unset !important;
+}

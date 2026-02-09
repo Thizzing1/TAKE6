@@ -1,0 +1,28 @@
+.connect-wallet {
+  align-items: flex-start;
+  background-color: #211c1c;
+  border-radius: 50px;
+  display: inline-flex;
+  flex-direction: column;
+  height: calc(100% - 112762px);
+  left: 2688px;
+  padding: 8px 16px 9.7px;
+  position: relative;
+  top: 112762px;
+}
+
+.connect-wallet .text-10 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.09px;
+  line-height: 14.7px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

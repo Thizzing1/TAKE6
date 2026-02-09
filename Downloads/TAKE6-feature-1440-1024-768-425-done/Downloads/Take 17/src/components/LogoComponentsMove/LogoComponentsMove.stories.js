@@ -1,0 +1,45 @@
+import { LogoComponentsMove } from ".";
+
+export default {
+  title: "Components/LogoComponentsMove",
+  component: LogoComponentsMove,
+  tags: ["autodocs"],
+};
+
+export const Default = {
+  args: {
+    className: "",
+    jpmorganlogoVector: "abc",
+    monetarylogoVector: "abc",
+    monetarylogoImg: "abc",
+    monetarylogoVector1: "abc",
+    monetarylogoVector2: "abc",
+    monetarylogoVector3: "abc",
+    coinbaselogoCoinbaselogoClassName: "",
+    galaxylogoVector: "abc",
+    galaxylogoImg: "abc",
+    fireblockslogoVector: "abc",
+    fireblockslogoImg: "abc",
+    consensyslogoConsensyslogo: "abc",
+    bancologoBancologoClassName: "",
+    centrifugeCentrifuge: "abc",
+    jpmorganlogoImg: "abc",
+    jpmorganlogoVectorClassName: "",
+    monetarylogoVector4: "abc",
+    monetarylogoVectorClassName: "",
+    monetarylogoVectorClassNameOverride: "",
+    monetarylogoVector5: "abc",
+    monetarylogoVector6: "abc",
+    monetarylogoVector7: "abc",
+    monetarylogoVector8: "abc",
+    coinbaselogoCoinbaselogoClassNameOverride: "",
+    galaxylogoVector1: "abc",
+    galaxylogoVectorClassName: "",
+    galaxylogoVector2: "abc",
+    fireblockslogoVector1: "abc",
+    fireblockslogoVector2: "abc",
+    consensyslogoImg: "abc",
+    bancologoBancologoClassNameOverride: "",
+    centrifugeImg: "abc",
+  },
+};

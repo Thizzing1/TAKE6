@@ -1,0 +1,1 @@
+export { OneStrainbowlineinfooter } from "./OneStrainbowlineinfooter";
