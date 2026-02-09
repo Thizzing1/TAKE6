@@ -1,0 +1,32 @@
+.component-7 {
+  align-items: flex-start;
+  display: flex;
+  left: 30px;
+  position: relative;
+  top: 30px;
+  width: 29px;
+}
+
+.component-7 .text-11 {
+  align-items: center;
+  color: #8f8e8e;
+  display: flex;
+  flex: 1;
+  font-family: var(--aave-com-inter-regular-font-family);
+  font-size: var(--aave-com-inter-regular-font-size);
+  font-style: var(--aave-com-inter-regular-font-style);
+  font-weight: var(--aave-com-inter-regular-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-inter-regular-letter-spacing);
+  line-height: var(--aave-com-inter-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.component-7 .text-11:hover {
+  color: #211c1c;
+}
+
+.component-7:hover {
+  left: 180px;
+}

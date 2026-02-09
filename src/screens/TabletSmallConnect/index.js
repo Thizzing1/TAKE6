@@ -1,0 +1,1 @@
+export { TabletSmallConnect } from "./TabletSmallConnect";

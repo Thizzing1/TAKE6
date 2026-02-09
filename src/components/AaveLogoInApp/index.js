@@ -1,0 +1,1 @@
+export { AaveLogoInApp } from "./AaveLogoInApp";

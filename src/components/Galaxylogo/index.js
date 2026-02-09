@@ -1,0 +1,1 @@
+export { Galaxylogo } from "./Galaxylogo";

@@ -1,0 +1,1 @@
+export { FaqsButton } from "./FaqsButton";

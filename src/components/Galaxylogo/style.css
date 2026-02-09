@@ -1,0 +1,21 @@
+.galaxylogo {
+  height: 8px;
+  position: relative;
+  width: 32px;
+}
+
+.galaxylogo .vector-29 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24.51%;
+}
+
+.galaxylogo .vector-30 {
+  height: 80.73%;
+  left: 32.72%;
+  position: absolute;
+  top: 18.95%;
+  width: 66.90%;
+}

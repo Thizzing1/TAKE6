@@ -1,0 +1,30 @@
+.privacy-button {
+  align-items: center;
+  display: inline-flex;
+  left: 44px;
+  position: relative;
+}
+
+.privacy-button .container-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.privacy-button .text-wrapper-4 {
+  align-items: center;
+  color: #a5a8b6;
+  display: flex;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0.15px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,17 @@
+.element-bhero {
+  background-image: url(../../../static/img/group-11.png);
+  background-size: 100% 100%;
+  bottom: 0;
+  height: 192px;
+  position: absolute;
+  right: 0;
+  width: 214px;
+}
+
+.element-bhero .group-31 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

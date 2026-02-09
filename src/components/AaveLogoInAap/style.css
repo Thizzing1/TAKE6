@@ -1,0 +1,58 @@
+.aave-logo-in-aap {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 20px;
+  padding: 0px 12px 0px 0px;
+  position: relative;
+  top: 14px;
+}
+
+.aave-logo-in-aap .link-go-to-homepage {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.aave-logo-in-aap .AAVE {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  position: relative;
+  width: 72px;
+}
+
+.aave-logo-in-aap .aave-com-logo-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  justify-content: center;
+  padding: 4.04px 0px;
+  position: relative;
+  width: 72px;
+}
+
+.aave-logo-in-aap .aave-com-logo-header-2 {
+  height: 11.92px;
+  position: relative;
+  width: 72px;
+}
+
+.aave-logo-in-aap .img {
+  height: 98.68%;
+  left: 8.41%;
+  position: absolute;
+  top: 0;
+  width: 90.97%;
+}
+
+.aave-logo-in-aap .vector-2 {
+  height: 97.55%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31.69%;
+}

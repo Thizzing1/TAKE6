@@ -1,0 +1,45 @@
+.monetarylogo {
+  height: 10px;
+  position: relative;
+  width: 37px;
+}
+
+.monetarylogo .vector-24 {
+  height: 94.28%;
+  left: 0;
+  position: absolute;
+  top: 3.83%;
+  width: 64.62%;
+}
+
+.monetarylogo .vector-25 {
+  height: 25.54%;
+  left: 33.18%;
+  position: absolute;
+  top: 13.67%;
+  width: 10.68%;
+}
+
+.monetarylogo .vector-26 {
+  height: 47.14%;
+  left: 43.32%;
+  position: absolute;
+  top: 0;
+  width: 25.63%;
+}
+
+.monetarylogo .vector-27 {
+  height: 35.35%;
+  left: 68.96%;
+  position: absolute;
+  top: 3.83%;
+  width: 25.10%;
+}
+
+.monetarylogo .vector-28 {
+  height: 35.35%;
+  left: 93.53%;
+  position: absolute;
+  top: 13.67%;
+  width: 6.41%;
+}

@@ -1,0 +1,30 @@
+.bridge-button {
+  align-items: center;
+  background-color: #383d51;
+  border: 1px solid;
+  border-color: #ebebed1f;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 7px 8px;
+  position: relative;
+}
+
+.bridge-button .frame-wrapper {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.bridge-button .frame {
+  height: 100%;
+  position: relative;
+}
+
+.bridge-button .img {
+  height: 75.00%;
+  left: 12.50%;
+  position: absolute;
+  top: 12.50%;
+  width: 75.00%;
+}

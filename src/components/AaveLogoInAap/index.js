@@ -1,0 +1,1 @@
+export { AaveLogoInAap } from "./AaveLogoInAap";
