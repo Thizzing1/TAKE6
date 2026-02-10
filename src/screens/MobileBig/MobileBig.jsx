@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Aaveeverywheremainicon425 } from "../../components/Aaveeverywheremainicon425";
 import { Aaveeverywheremainiconbackground425 } from "../../components/Aaveeverywheremainiconbackground425";
 import { Aavefooterlogo } from "../../components/Aavefooterlogo";
@@ -68,6 +69,10 @@ import { Variant183 } from "../../icons/Variant183";
 import "./style.css";
 
 export const MobileBig = () => {
+   const navigate = useNavigate();
+   const handleConnectWalletClick = () => {
+    navigate("/connect")
+  }
   return (
     <div className="mobile-big">
       <div className="main">
@@ -2487,7 +2492,8 @@ export const MobileBig = () => {
             </div>
 
             <div className="connect-wallet-wrapper">
-              <ConnectWallet className="connect-wallet-button-1440" />
+              <ConnectWallet className="connect-wallet-button-1440" 
+              onClick={handleConnectWalletClick}/>
             </div>
           </div>
 

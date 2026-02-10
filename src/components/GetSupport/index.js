@@ -1,0 +1,1 @@
+export { GetSupport } from "./GetSupport";

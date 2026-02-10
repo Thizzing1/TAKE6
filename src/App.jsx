@@ -13,6 +13,7 @@ import { DesktopConnect } from "./screens/DesktopConnect/DesktopConnect";
 import { TabletBigConnect } from "./screens/TabletBigConnect/TabletBigConnect";
 import { TabletSmallConnect } from "./screens/TabletSmallConnect/TabletSmallConnect";
 import { MobileBigConnect } from "./screens/MobileBigConnect/MobileBigConnect";
+import { MobileMediumSmallConnect } from "./screens/MobileMediumSmallConnect/MobileMediumSmallConnect";
 
 import { useMediaQuery } from "./hooks/useMediaQuery";
 
@@ -41,11 +42,13 @@ function Homepage() {
 
 // Function to dynamically choose the Connect component
 function ConnectRoute() {
+  const isMobileMedium = useMediaQuery("(min-width: 321px) and (max-width: 375px)");
   const isMobileBig = useMediaQuery("(min-width: 376px) and (max-width: 425px)");
-   const isTabletSmall = useMediaQuery("(min-width: 426px) and (max-width: 768px)");
+  const isTabletSmall = useMediaQuery("(min-width: 426px) and (max-width: 768px)");
   const isTabletBig = useMediaQuery("(min-width: 769px) and (max-width: 1024px)");
   const isDesktop = useMediaQuery("(min-width: 1025px)");
 
+  if (isMobileMedium) return <MobileMediumSmallConnect />;
   if (isMobileBig) return <MobileBigConnect />;
   if (isTabletSmall) return <TabletSmallConnect />;
   if (isTabletBig) return <TabletBigConnect />;

@@ -1,0 +1,30 @@
+.get-support {
+  align-items: center;
+  display: inline-flex;
+  left: 180px;
+  position: relative;
+}
+
+.get-support .container-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.get-support .text-wrapper-7 {
+  align-items: center;
+  color: #a5a8b6;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0.15px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

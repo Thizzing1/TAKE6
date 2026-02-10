@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Aavefooterlogo } from "../../components/Aavefooterlogo";
 import { Aavelogo } from "../../components/Aavelogo";
 import { Aboutaavehero } from "../../components/Aboutaavehero";
@@ -74,6 +75,10 @@ import { Component1_56_3 } from "../../icons/Component1_56_3";
 import "./style.css";
 
 export const MobileMediumSmall = () => {
+   const navigate = useNavigate();
+   const handleConnectWalletClick = () => {
+    navigate("/connect")
+  }
   return (
     <div className="mobile-medium-small">
       <div className="main-wrapper">
@@ -2303,7 +2308,8 @@ export const MobileMediumSmall = () => {
             </div>
 
             <div className="connect-wallet-wrapper">
-              <ConnectWallet className="connect-wallet-button-1440" />
+              <ConnectWallet className="connect-wallet-button-1440" 
+              onClick={handleConnectWalletClick}/>
             </div>
           </div>
 

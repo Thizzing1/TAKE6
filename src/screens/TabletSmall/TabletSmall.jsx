@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Aavefooterlogo } from "../../components/Aavefooterlogo";
 import { Aavelogo } from "../../components/Aavelogo";
 import { Aboutaavehero } from "../../components/Aboutaavehero";
@@ -71,6 +72,10 @@ import { Variant184 } from "../../icons/Variant184";
 import "./style.css";
 
 export const TabletSmall = () => {
+   const navigate = useNavigate();
+   const handleConnectWalletClick = () => {
+    navigate("/connect")
+  }
   return (
     <div className="tablet-small">
       <div className="main">
@@ -2619,7 +2624,8 @@ export const TabletSmall = () => {
             </div>
 
             <div className="connect-wallet-wrapper">
-              <ConnectWallet className="connect-wallet-button-1440" />
+              <ConnectWallet className="connect-wallet-button-1440"
+              onClick={ handleConnectWalletClick } />
             </div>
           </div>
 

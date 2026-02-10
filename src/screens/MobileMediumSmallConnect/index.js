@@ -1,0 +1,1 @@
+export { MobileMediumSmallConnect } from "./MobileMediumSmallConnect";
