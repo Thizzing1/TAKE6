@@ -1,0 +1,41 @@
+.getearlyaccess {
+  align-items: center;
+  background-color: #9797ff;
+  border-radius: 50px;
+  display: inline-flex;
+  gap: 6px;
+  height: 40px;
+  padding: 0px 16px;
+  position: relative;
+  top: 113342px;
+}
+
+.getearlyaccess .container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.getearlyaccess .text {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.getearlyaccess .variant-3 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

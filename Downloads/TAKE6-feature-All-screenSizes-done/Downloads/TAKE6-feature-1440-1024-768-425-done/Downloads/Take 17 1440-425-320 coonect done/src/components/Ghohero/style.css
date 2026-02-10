@@ -1,0 +1,16 @@
+.ghohero {
+  align-items: flex-start;
+  display: flex;
+  height: 219px;
+  left: -4826px;
+  min-width: calc(100.00% + 4826px);
+  position: relative;
+  top: 18410px;
+}
+
+.ghohero .hero-reveal {
+  height: 287px;
+  margin-left: -56px;
+  margin-top: -33.8px;
+  width: 323px;
+}
