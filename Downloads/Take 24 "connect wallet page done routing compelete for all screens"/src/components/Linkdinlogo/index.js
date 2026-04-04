@@ -1,0 +1,1 @@
+export { Linkdinlogo } from "./Linkdinlogo";

@@ -1,0 +1,68 @@
+.savehero {
+  align-items: flex-start;
+  display: flex;
+  height: 169px;
+  justify-content: flex-end;
+  min-width: 237px;
+  position: absolute;
+  right: 0;
+  top: 18162px;
+}
+
+.savehero .overlap-group {
+  height: 223px;
+  margin-top: -54.26px;
+  position: relative;
+  width: 355px;
+}
+
+.savehero .element-to-rush-out {
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 49px;
+  width: 124px;
+}
+
+.savehero .group-7 {
+  height: 100%;
+  position: relative;
+}
+
+.savehero .vector-34 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 50.00%;
+  width: 100.00%;
+}
+
+.savehero .vector-35 {
+  height: 50.00%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100.00%;
+}
+
+.savehero .element-nd-to-rush-out {
+  height: 182px;
+  left: 61px;
+  position: absolute;
+  top: 20px;
+  width: 182px;
+}
+
+.savehero .element-st-to-rush-out {
+  height: 223px;
+  left: 133px;
+  position: absolute;
+  top: 0;
+  width: 223px;
+}
+
+.savehero .group-8 {
+  height: 100%;
+  position: relative;
+  width: 100.00%;
+}

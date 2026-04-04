@@ -1,0 +1,1 @@
+export { GhoheroWrapper } from "./GhoheroWrapper";

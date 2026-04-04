@@ -1,0 +1,79 @@
+.bugbountyhero {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  left: -23237px;
+  min-height: 149px;
+  padding: 0 77.4px;
+  position: relative;
+  top: 25973px;
+  width: calc(100% + 23237px);
+}
+
+.bugbountyhero .group-wrapper {
+  align-self: center;
+  height: 32px;
+  margin-left: 1.73px;
+  margin-top: 36px;
+  width: 32px;
+}
+
+.bugbountyhero .group-9 {
+  height: 100%;
+  position: relative;
+}
+
+.bugbountyhero .vector-36 {
+  height: 100.00%;
+  left: 50.00%;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.bugbountyhero .vector-37 {
+  height: 100.00%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.bugbountyhero .overlap-group-2 {
+  height: 91px;
+  position: relative;
+  width: 130px;
+}
+
+.bugbountyhero .group-10 {
+  height: 24px;
+  left: 39px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.bugbountyhero .group-11 {
+  height: 24px;
+  left: 26px;
+  position: absolute;
+  top: 22px;
+  width: 76px;
+}
+
+.bugbountyhero .element-2 {
+  height: 25px;
+  left: 13px;
+  position: absolute;
+  top: 43px;
+  width: 103px;
+}
+
+.bugbountyhero .group-12 {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 130px;
+}

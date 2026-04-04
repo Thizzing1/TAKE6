@@ -1,0 +1,52 @@
+.whereare {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  left: -3322px;
+  position: relative;
+  top: -50551px;
+  width: 335px;
+}
+
+.whereare .button-2 {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+  width: 100%;
+}
+
+.whereare .where-are-supplied-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 24px;
+  padding: 0px 48.09px 0px 0px;
+  position: absolute;
+  top: calc(50.00% - 20px);
+}
+
+.whereare .where-are-supplied {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: var(--aave-com-semantic-heading-3-font-family);
+  font-size: var(--aave-com-semantic-heading-3-font-size);
+  font-style: var(--aave-com-semantic-heading-3-font-style);
+  font-weight: var(--aave-com-semantic-heading-3-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-semantic-heading-3-letter-spacing);
+  line-height: var(--aave-com-semantic-heading-3-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.whereare .button-375-9-instance {
+  height: 52px !important;
+  left: 275px !important;
+  position: absolute !important;
+  top: calc(50.00% - 23px) !important;
+  width: 52px !important;
+}

@@ -1,0 +1,38 @@
+.signup-button {
+  all: unset;
+  align-items: center;
+  background-color: #211c1c;
+  border-radius: 6px 20px 20px 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  left: 2841px;
+  padding: 0px 16px 0px 12px;
+  position: relative;
+  top: 114462px;
+}
+
+.signup-button .container-12 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.signup-button .text-8 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.09px;
+  line-height: 16.8px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

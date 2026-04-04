@@ -1,0 +1,61 @@
+.component-8 {
+  align-items: flex-end;
+  display: flex;
+  height: 12px;
+  position: relative;
+}
+
+.component-8 .overlay-gradient {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(57, 209, 249, 1) 0%,
+      rgba(255, 180, 0, 1) 8%,
+      rgba(0, 130, 124, 1) 17%,
+      rgba(0, 138, 255, 1) 25%,
+      rgba(255, 50, 0, 1) 33%,
+      rgba(152, 150, 255, 1) 41%,
+      rgba(57, 209, 249, 1) 50%,
+      rgba(255, 180, 0, 1) 58%,
+      rgba(0, 130, 124, 1) 66%,
+      rgba(0, 138, 255, 1) 75%,
+      rgba(255, 50, 0, 1) 83%,
+      rgba(152, 150, 255, 1) 91%,
+      rgba(57, 209, 249, 1) 100%
+    );
+  border-radius: 4px;
+  flex: 1;
+  height: 4px;
+}
+
+.component-8.hover-2-true {
+  left: 332px;
+  width: calc(100% - 332px);
+}
+
+.component-8.variant-1-three {
+  top: 114px;
+}
+
+.component-8.hover-2-false {
+  left: 30px;
+  width: calc(100% - 30px);
+}
+
+.component-8.variant-1-two {
+  opacity: 0.2;
+  top: 72px;
+}
+
+.component-8.variant-1-one {
+  opacity: 0.5;
+  top: 30px;
+}
+
+.component-8.variant-1-three.hover-2-false {
+  opacity: 0.1;
+}
