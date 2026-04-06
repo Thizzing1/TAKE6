@@ -1,0 +1,63 @@
+.get-a-wallet-button {
+  background-color: #424242;
+  border-radius: 16px;
+  display: flex;
+  left: 10088px;
+  position: relative;
+  top: -9228px;
+  width: 164px;
+}
+
+.get-a-wallet-button .container-7 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 48px;
+  justify-content: center;
+  margin-bottom: 1px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: -1px;
+  position: relative;
+  width: 156.5px;
+}
+
+.get-a-wallet-button .container-8 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 114.5px;
+  position: relative;
+}
+
+.get-a-wallet-button .container-9 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  max-height: 48px;
+  max-width: 93.62px;
+  position: relative;
+  width: 100%;
+}
+
+.get-a-wallet-button .text-wrapper-6 {
+  -webkit-text-stroke: 0px transparent;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: -0.19px;
+  margin-right: -0.19px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

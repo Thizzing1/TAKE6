@@ -1,0 +1,16 @@
+.earnhero {
+  align-items: flex-start;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  min-width: 268px;
+  position: absolute;
+  right: 0;
+  top: 15924px;
+}
+
+.earnhero .beatlikeaheartbeat {
+  height: 294px;
+  margin-top: -146.97px;
+  width: 294px;
+}

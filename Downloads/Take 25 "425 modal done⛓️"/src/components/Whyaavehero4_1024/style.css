@@ -1,0 +1,136 @@
+.whyaavehero-4-1024 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 11.24px;
+  height: 234px;
+  position: relative;
+  width: 428px;
+}
+
+.whyaavehero-4-1024 .background-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #fbfbfa;
+  border-radius: 14.98px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.whyaavehero-4-1024 .middle-blue-wrapper {
+  align-self: stretch;
+  background-image: url(../../../static/img/vector-87.svg);
+  background-size: 100% 100%;
+  height: 234.12px;
+  position: relative;
+  width: 100%;
+}
+
+.whyaavehero-4-1024 .middle-blue-1024 {
+  height: 92.19% !important;
+  top: -92.37% !important;
+  transform: unset !important;
+}
+
+.whyaavehero-4-1024 .container-7 {
+  align-self: stretch;
+  height: 82.59px;
+  margin-bottom: -93.83px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.whyaavehero-4-1024 .container-8 {
+  align-items: flex-start;
+  display: flex;
+  left: 1px;
+  max-width: 95.52px;
+  position: absolute;
+  top: 19px;
+  width: 96px;
+}
+
+.whyaavehero-4-1024 .container-9 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 45.89px;
+}
+
+.whyaavehero-4-1024 .container-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.whyaavehero-4-1024 .text-wrapper-4 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  align-items: center;
+  color: #211c1c;
+  display: -webkit-box;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 22.5px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.45px;
+  line-height: 23.6px;
+  margin-top: -0.94px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.whyaavehero-4-1024 .text-wrapper-5 {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "FT Regola Neue-Medium", Helvetica;
+  font-size: 22.5px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.45px;
+  line-height: 23.6px;
+  margin-top: -0.94px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.whyaavehero-4-1024 .average-stablecoin-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 107px;
+  opacity: 0.7;
+  padding: 0px 34.8px 0px 0px;
+  position: absolute;
+  top: 22px;
+}
+
+.whyaavehero-4-1024 .average-stablecoin {
+  align-items: center;
+  color: #211c1c;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: -0.17px;
+  line-height: 20.2px;
+  margin-top: -0.94px;
+  position: relative;
+  width: fit-content;
+}

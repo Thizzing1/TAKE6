@@ -1,0 +1,1 @@
+export { Bugbountyhero } from "./Bugbountyhero";

@@ -1,0 +1,16 @@
+.swaphero {
+  align-items: flex-start;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  min-width: 285px;
+  position: absolute;
+  right: 0;
+  top: 17043px;
+}
+
+.swaphero .bouncing-animation {
+  height: 181px;
+  margin-top: -90.12px;
+  width: 271px;
+}

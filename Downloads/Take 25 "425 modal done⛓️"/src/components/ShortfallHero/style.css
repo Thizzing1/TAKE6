@@ -1,0 +1,37 @@
+.shortfall-hero {
+  height: 147px;
+  position: relative;
+  width: 280px;
+}
+
+.shortfall-hero .whole-thing-should {
+  height: 149px;
+  left: 66px;
+  position: absolute;
+  top: -1px;
+  width: 147px;
+}
+
+.shortfall-hero .group-13 {
+  height: 21.88%;
+  left: 44.27%;
+  position: absolute;
+  top: 39.06%;
+  width: 11.27%;
+}
+
+.shortfall-hero .vector-38 {
+  height: 100%;
+  left: 50.00%;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.shortfall-hero .vector-39 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
