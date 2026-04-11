@@ -1,0 +1,47 @@
+.metamask-button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 9912px;
+  max-width: 377px;
+  padding: 1px 6px;
+  position: relative;
+  top: -9479px;
+  width: 80px;
+}
+
+.metamask-button .img {
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+
+.metamask-button .div {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 80px;
+  opacity: 0.75;
+  overflow: hidden;
+  padding: 10px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.metamask-button .text-wrapper-2 {
+  -webkit-text-stroke: 0px transparent;
+  align-items: center;
+  align-self: stretch;
+  color: #ffffff;
+  display: flex;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}

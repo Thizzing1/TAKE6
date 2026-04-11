@@ -1,0 +1,39 @@
+.shortfallsecuredhero {
+  height: calc(100% - 27018px);
+  left: -20126px;
+  position: relative;
+  top: 27018px;
+  width: calc(100% + 20126px);
+}
+
+.shortfallsecuredhero .whole-thing-should {
+  height: 241px;
+  left: 111px;
+  position: absolute;
+  top: 8px;
+  width: 241px;
+}
+
+.shortfallsecuredhero .group-41 {
+  height: 20.34%;
+  left: 44.27%;
+  position: absolute;
+  top: 39.83%;
+  width: 11.27%;
+}
+
+.shortfallsecuredhero .vector-40 {
+  height: 100.00%;
+  left: 50.00%;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.shortfallsecuredhero .vector-41 {
+  height: 100.00%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}

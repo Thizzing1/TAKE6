@@ -1,0 +1,1 @@
+export { Aboutaavehero } from "./Aboutaavehero";

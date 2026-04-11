@@ -1,0 +1,1 @@
+export { MobileMeduimSmall } from "./MobileMeduimSmall";

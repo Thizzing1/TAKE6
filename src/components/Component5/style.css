@@ -1,0 +1,66 @@
+.component-5 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-flex;
+  position: relative;
+}
+
+.component-5 .text-7 {
+  align-items: center;
+  color: #00498a;
+  display: flex;
+  font-family: var(--aave-com-inter-medium-font-family);
+  font-size: var(--aave-com-inter-medium-font-size);
+  font-style: var(--aave-com-inter-medium-font-style);
+  font-weight: var(--aave-com-inter-medium-font-weight);
+  justify-content: center;
+  letter-spacing: var(--aave-com-inter-medium-letter-spacing);
+  line-height: var(--aave-com-inter-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-5 .component-1-58-1 {
+  height: 16.32px !important;
+  position: relative !important;
+  width: 16.32px !important;
+}
+
+.component-5 .text-8 {
+  align-items: center;
+  color: #00498a;
+  display: flex;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  line-height: 16.8px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-5 .component-1-32-11-instance {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.component-5.hover-1-true {
+  gap: 8.16px;
+  padding: 12px 16.31px 12px 20.4px;
+}
+
+.component-5.hover-1-false {
+  gap: 6px;
+  left: 30px;
+  padding: 12px 18px 12px 20px;
+  top: 30px;
+}

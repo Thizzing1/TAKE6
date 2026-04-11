@@ -1,0 +1,1 @@
+export { ElementYearsstronghero } from "./ElementYearsstronghero";
