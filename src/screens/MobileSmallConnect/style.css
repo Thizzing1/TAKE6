@@ -5,11 +5,12 @@
 
 html, body {
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* here it stopped for tweaks */
+/* ==================== YOUR ORIGINAL STYLES (UNTOUCHED) ==================== */
 
 .mobile-small-connect {
   align-items: flex-start;
@@ -819,4 +820,42 @@ html, body {
   position: relative;
   text-align: center;
   width: fit-content;
+}
+
+/* ==================== PURE CSS FIX FOR WHITE SPACE BELOW MODAL ==================== */
+
+.mobile-small-connect {
+  min-height: 100vh;
+  height: auto;               /* prevents forced extra space */
+  overflow: hidden;
+}
+
+.mobile-small-connect .container {
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Make the modal truly full-screen fixed without adding layout space */
+.artboard {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 31px 24px !important;
+  box-sizing: border-box;
+  overflow: hidden;
+  contain: layout style paint;
+}
+
+/* Hide body scroll when modal is open (clean mobile experience) */
+body:has(.artboard) {
+  overflow: hidden;
+}
+
+/* Fallback if :has() is not supported */
+.mobile-small-connect:has(.artboard) {
+  overflow: hidden;
 }

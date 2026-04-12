@@ -1,5 +1,5 @@
 .artboard {
-  position: fixed; /* key fix */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -7,10 +7,8 @@
 
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  touch-action: none; /* key fix for mobile scrolling */
-  
- 
+  align-items: flex-end;     /* kept your original */
+  touch-action: none;
 
   padding: 31px 24px;
 
@@ -22,32 +20,42 @@
 
   opacity: 0;
   animation: fadeIn 0.25s ease forwards;
-  align-items: flex-start;
-  display: flex;
-  min-height: 1600px;
-  min-width: 803px;
- 
+
+  /* 🔥 NEW: Easy position control without touching your design */
+  --modal-translate-x: 0px;
+  --modal-translate-y: 40px;
 }
 
+/* Main modal - only this part moves */
 .artboard .actualmodal {
   align-items: center;
   display: flex;
   flex-direction: column;
   position: relative;
   width: 320px;
-    transform: translateY(100%); /* key fix */
-  animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards; /* key fix */
+
+  /* 🔥 This moves the whole modal without affecting inner layout */
+  transform: translate(
+    var(--modal-translate-x),
+    var(--modal-translate-y)
+  );
+
+  animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
-.artboard.actualmodal{
-  transform: translateX(100px);
-}
+
+/* Quick helper classes for testing */
+.artboard.move-up    .actualmodal { --modal-translate-y: -100px; }
+.artboard.move-down  .actualmodal { --modal-translate-y:  80px; }
+.artboard.move-left  .actualmodal { --modal-translate-x: -50px; }
+.artboard.move-right .actualmodal { --modal-translate-x:  50px; }
+
+/* ====================== YOUR ORIGINAL CLASSES (UNCHANGED) ====================== */
 
 .artboard .container-10 {
   height: 476px;
   max-width: 448px;
   position: relative;
   width: 320px;
-
 }
 
 .artboard .background-shadow {
@@ -360,7 +368,7 @@
   width: fit-content;
 }
 
-                       /* 🔥 ANIMATIONS (WEB3 SMOOTH) */
+/* Animations */
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -369,6 +377,9 @@
 
 @keyframes slideUp {
   to {
-    transform: translateY(0);
+    transform: translate(
+      var(--modal-translate-x),
+      var(--modal-translate-y)
+    );
   }
 }

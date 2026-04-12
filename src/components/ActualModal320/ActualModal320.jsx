@@ -8,7 +8,19 @@ import "./style.css";
 
 export const ActualModal320 = () => {
   return (
-    <div className="artboard">
+    <div 
+      className="artboard"
+      // === HOW TO MOVE THE MODAL (without touching design) ===
+      // Option 1: Quick test with classes
+      // className="artboard move-up"
+      // className="artboard move-down"
+
+      // Option 2: Precise control (best)
+      // style={{
+      //   '--modal-translate-x': '30px',
+      //   '--modal-translate-y': '-120px'
+      // }}
+    >
       <div className="actualmodal">
         <div className="container-10">
           <div className="background-shadow" />
