@@ -1,0 +1,1 @@
+export { ElementBhero } from "./ElementBhero";

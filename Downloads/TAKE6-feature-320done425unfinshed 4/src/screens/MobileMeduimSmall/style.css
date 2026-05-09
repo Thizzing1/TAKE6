@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #2b2d3c;
+}
+
+/* =============== MAIN CONTAINER =============== */
+.mobile-small-connect {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  background-color: #2b2d3c;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile-small-connect .container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Keep your original styles (only minor responsive tweaks) */
+.mobile-small-connect .header,
+.mobile-small-connect .main,
+.mobile-small-connect .overlay-shadow,
+.mobile-small-connect .header-2 {
+  width: 100%;
+}
+
+/* Make sure connect card is visible */
+.background-shadow {
+  margin: 0 8px;
+  width: calc(100% - 16px);
+}
+
+/* Quick fix for 376-425px screens */
+@media (min-width: 376px) and (max-width: 425px) {
+  .mobile-small-connect {
+    max-width: 425px;
+  }
+  
+  .mobile-small-connect .background-shadow {
+    width: calc(100% - 16px);
+    left: 8px;
+  }
+}
+
+/* ==================== MODAL FIX & RESPONSIVE ==================== */
+.mobile-meduim-small {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  background: #2b2d3c;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Make sure buttons are clickable */
+.connectwalletbutton,
+.connectwallet-button {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Fix modal positioning */
+.modal-overlay {
+  z-index: 9999 !important;
+}

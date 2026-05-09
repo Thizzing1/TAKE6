@@ -1,0 +1,74 @@
+.element {
+  height: 147px;
+  position: relative;
+  width: 280px;
+}
+
+.element .overlap-group-3 {
+  height: 68px;
+  left: 75px;
+  position: relative;
+  top: 40px;
+  width: 151px;
+}
+
+.element .drop-move-side {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 16px;
+}
+
+.element .group-14 {
+  height: 100%;
+  position: relative;
+}
+
+.element .vector-40 {
+  height: 100%;
+  left: 50.00%;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.element .vector-41 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50.00%;
+}
+
+.element .drop-nd-move-side {
+  height: 23px;
+  left: 14px;
+  position: absolute;
+  top: 23px;
+  width: 22px;
+}
+
+.element .drop-rd-move-side {
+  height: 28px;
+  left: 33px;
+  position: absolute;
+  top: 20px;
+  width: 27px;
+}
+
+.element .drop-th-move-side {
+  height: 44px;
+  left: 54px;
+  position: absolute;
+  top: 12px;
+  width: 43px;
+}
+
+.element .drop-move-side-2 {
+  height: 68px;
+  left: 84px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}

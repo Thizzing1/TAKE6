@@ -1,0 +1,38 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* variant: default */
+.btn-default {
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  height: 36px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* variant: ghost */
+.btn-ghost {
+  background: transparent;
+  color: #fff;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.05);
+}

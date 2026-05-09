@@ -1,0 +1,14 @@
+.card {
+  border-radius: 24px;
+  background: #333333;
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 24px 24px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

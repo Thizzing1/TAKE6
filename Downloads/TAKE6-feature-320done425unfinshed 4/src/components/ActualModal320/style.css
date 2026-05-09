@@ -1,0 +1,385 @@
+.artboard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;     /* kept your original */
+  touch-action: none;
+
+  padding: 31px 24px;
+
+  z-index: 9999;
+
+  /* Web3 feel */
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+
+  opacity: 0;
+  animation: fadeIn 0.25s ease forwards;
+
+  /* 🔥 NEW: Easy position control without touching your design */
+  --modal-translate-x: 0px;
+  --modal-translate-y: 40px;
+}
+
+/* Main modal - only this part moves */
+.artboard .actualmodal {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 320px;
+
+  /* 🔥 This moves the whole modal without affecting inner layout */
+  transform: translate(
+    var(--modal-translate-x),
+    var(--modal-translate-y)
+  );
+
+  animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Quick helper classes for testing */
+.artboard.move-up    .actualmodal { --modal-translate-y: -100px; }
+.artboard.move-down  .actualmodal { --modal-translate-y:  80px; }
+.artboard.move-left  .actualmodal { --modal-translate-x: -50px; }
+.artboard.move-right .actualmodal { --modal-translate-x:  50px; }
+
+/* ====================== YOUR ORIGINAL CLASSES (UNCHANGED) ====================== */
+
+.artboard .container-10 {
+  height: 476px;
+  max-width: 448px;
+  position: relative;
+  width: 320px;
+}
+
+.artboard .background-shadow {
+  background-color: #2a2a2a;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 2px 4px #00000005;
+  height: 516px;
+  left: 0;
+  position: absolute;
+  top: -40px;
+  width: 116.56%;
+}
+
+.artboard .container-11 {
+  display: flex;
+  height: 26px;
+  left: calc(50.00% - 204px);
+  position: absolute;
+  top: -11px;
+  width: 448px;
+}
+
+.artboard .container-12 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 1;
+  justify-content: center;
+  margin-bottom: 6px;
+  margin-left: 52px;
+  margin-right: 52px;
+  padding: 0px 111.53px 0px 111.52px;
+  position: relative;
+  width: 344.05px;
+}
+
+.artboard .container-13 {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  max-height: 26px;
+  max-width: 344px;
+  position: relative;
+}
+
+.artboard .text-wrapper-7 {
+  -webkit-text-stroke: 0px transparent;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-size: 16.7px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.artboard .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 3px;
+  padding: 31px 24px;
+  position: absolute;
+  top: -50px;
+  width: 375px;
+}
+
+.artboard .container-14 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 375px;
+  padding: 32px 0px 0px;
+  position: relative;
+  width: 327px;
+}
+
+.artboard .container-15 {
+  align-self: stretch;
+  height: 442px;
+  position: relative;
+  width: 100%;
+}
+
+.artboard .button-margin {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 68px;
+  left: 0;
+  padding: 18px 0px 2px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.artboard .continue-with-family-button-320 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.artboard .container-16 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 113px;
+  width: 100%;
+}
+
+.artboard .container-17 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-left: -24px;
+  margin-right: -24px;
+  overflow: scroll;
+  padding: 0px 24px 6px;
+  position: relative;
+  width: 375px;
+  z-index: 1;
+}
+
+.artboard .container-17::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.artboard .container-18 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 31px;
+  padding: 14px 12.5px 28px;
+  position: relative;
+  width: 100%;
+}
+
+.artboard .design-component-instance-node {
+  left: unset !important;
+  top: unset !important;
+}
+
+.artboard .background-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #333333;
+  border-radius: 24px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  padding: 24px 24px 16px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.artboard .container-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.artboard .heading {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.artboard .text-wrapper-8 {
+  -webkit-text-stroke: 0px transparent;
+  align-items: center;
+  align-self: stretch;
+  color: #ffffff;
+  display: flex;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-size: 16.5px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.artboard .wallets-are-used-to-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 279px;
+}
+
+.artboard .wallets-are-used-to {
+  -webkit-text-stroke: 0px transparent;
+  color: #ffffff66;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.artboard .container-20 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  position: relative;
+  width: 295px;
+}
+
+.artboard .button-margin-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 60px;
+  padding: 12px 0px 0px;
+  position: relative;
+}
+
+.artboard .design-component-instance-node-2 {
+  align-self: stretch !important;
+  display: unset !important;
+  height: 48px !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.artboard .design-component-instance-node-3 {
+  flex: unset !important;
+  height: 100% !important;
+  left: 4px !important;
+  margin-bottom: unset !important;
+  margin-left: unset !important;
+  margin-right: unset !important;
+  margin-top: unset !important;
+  top: -1px !important;
+  width: calc(100% - 8px) !important;
+}
+
+.artboard .background-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.artboard .background-3 {
+  align-items: flex-start;
+  background-color: #2a2a2a;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  padding: 0px 14px;
+  position: relative;
+}
+
+.artboard .p {
+  -webkit-text-stroke: 0px transparent;
+  align-items: center;
+  color: #ffffff66;
+  display: flex;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    transform: translate(
+      var(--modal-translate-x),
+      var(--modal-translate-y)
+    );
+  }
+}

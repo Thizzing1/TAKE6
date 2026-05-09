@@ -1,0 +1,1 @@
+export { Krakenlogo } from "./Krakenlogo";

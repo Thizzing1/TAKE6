@@ -1,0 +1,32 @@
+.governedbyyouhero {
+  align-items: flex-start;
+  display: flex;
+  height: 100%;
+  left: -14412px;
+  min-width: 285px;
+  position: relative;
+}
+
+.governedbyyouhero .overlap-group-4 {
+  height: 660px;
+  margin-left: -187px;
+  margin-top: -66.91px;
+  position: relative;
+  width: 660px;
+}
+
+.governedbyyouhero .clockwise-rotating {
+  height: 594px;
+  left: 33px;
+  position: absolute;
+  top: 33px;
+  width: 593px;
+}
+
+.governedbyyouhero .anti-clockwise {
+  height: 660px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 660px;
+}

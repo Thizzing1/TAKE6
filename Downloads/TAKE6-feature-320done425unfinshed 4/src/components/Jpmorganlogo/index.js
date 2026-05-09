@@ -1,0 +1,1 @@
+export { Jpmorganlogo } from "./Jpmorganlogo";
