@@ -1,0 +1,101 @@
+.map-floating-btn{
+
+    position:absolute;
+
+    top:clamp(1rem,3vw,1.8rem);
+
+    width:clamp(38px,4vw + 24px,70px);
+
+    aspect-ratio:1;
+
+    border:none;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+
+    z-index:1200;
+
+}
+
+
+
+.map-floating-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+
+
+.map-back-btn{
+
+    left:clamp(1rem,3vw,3rem);
+
+    background:transparent;
+
+}
+
+
+
+.map-logo-btn{
+
+    right:clamp(1rem,3vw,2rem);
+
+    background:transparent;
+
+}
+
+
+
+.map-floating-btn svg{
+
+width:clamp(16px,2vw + 10px,24px);
+
+height:clamp(16px,2vw + 10px,24px);
+
+}
+
+
+
+@media(max-width:197px){
+
+.map-floating-btn{
+
+width:30px;
+
+top:.5rem;
+
+}
+
+.map-back-btn{
+
+left:.5rem;
+
+}
+
+.map-logo-btn{
+
+right:.5rem;
+
+}
+
+.map-floating-btn svg{
+
+width:14px;
+
+height:14px;
+
+}
+
+}

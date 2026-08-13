@@ -1,0 +1,22 @@
+.home{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    overflow:hidden;
+
+    background:var(--surface);
+
+}
+.home-loading{
+
+min-height:100vh;
+
+width:100%;
+
+background:var(--background);
+
+}

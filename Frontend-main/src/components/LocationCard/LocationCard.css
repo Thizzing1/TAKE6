@@ -1,0 +1,201 @@
+.location-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(0,0,0,.08);
+
+    z-index:2000;
+
+}
+
+
+
+.location-permission-card{
+
+    width:min(90vw,360px);
+
+    background:var(--surface);
+
+    border-radius:var(--radius-medium);
+
+    padding:clamp(1.2rem,3vw,2rem);
+
+    text-align:center;
+
+    box-shadow:var(--shadow-large);
+
+    animation:fadeIn .25s ease;
+
+    box-sizing:border-box;
+
+}
+
+
+
+.location-icon{
+
+    width:clamp(52px,8vw,72px);
+
+    aspect-ratio:1;
+
+    border-radius:50%;
+
+    background:#EFE4FF;
+
+    color:var(--primary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto auto clamp(1rem,2.5vw,1.5rem);
+
+}
+
+
+
+.location-icon svg{
+
+width:clamp(22px,3vw + 14px,34px);
+
+height:clamp(22px,3vw + 14px,34px);
+
+}
+
+
+
+.location-title{
+
+    font-size:clamp(1.05rem,.8rem + 1.4vw,1.4rem);
+
+    margin-bottom:clamp(.7rem,1.5vw,1rem);
+
+}
+
+
+
+.location-description{
+
+    color:var(--text-light);
+
+    font-size:clamp(.8rem,.3vw + .75rem,.95rem);
+
+    line-height:1.7;
+
+    margin-bottom:clamp(1.4rem,3vw,2rem);
+
+}
+
+
+
+.location-skip-btn{
+
+    margin-top:1rem;
+
+    background:none;
+
+    border:none;
+
+    color:#999;
+
+    font-size:clamp(.78rem,.3vw + .72rem,.9rem);
+
+    cursor:pointer;
+
+    transition:color var(--transition);
+
+}
+
+
+
+.location-skip-btn:hover{
+
+    color:var(--primary);
+
+}
+
+
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+@media(max-width:197px){
+
+.location-permission-card{
+
+padding:.8rem;
+
+}
+
+.location-icon{
+
+width:40px;
+
+margin-bottom:.6rem;
+
+}
+
+.location-icon svg{
+
+width:18px;
+
+height:18px;
+
+}
+
+.location-title{
+
+font-size:.85rem;
+
+margin-bottom:.4rem;
+
+}
+
+.location-description{
+
+font-size:.62rem;
+
+line-height:1.4;
+
+margin-bottom:.9rem;
+
+}
+
+.location-skip-btn{
+
+font-size:.6rem;
+
+margin-top:.5rem;
+
+}
+
+}

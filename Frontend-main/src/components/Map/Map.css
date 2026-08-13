@@ -1,0 +1,536 @@
+/* ==================================================
+   MAP CONTAINER
+================================================== */
+
+.map-container {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+
+/* ==================================================
+   MARKER WRAPPER
+================================================== */
+
+.marker-wrapper {
+
+    /*
+    ----------------------------------------------
+    THIS IS NOW THE ACTUAL MARKER SIZE.
+    ----------------------------------------------
+    */
+
+    width: var(--marker-size);
+
+    height: var(--marker-size);
+
+
+    position: relative;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    cursor: grab;
+
+
+    /*
+    ----------------------------------------------
+    IMPORTANT
+
+    Prevent Mapbox from shrinking the marker.
+    ----------------------------------------------
+    */
+
+    flex-shrink: 0;
+
+
+    /*
+    ----------------------------------------------
+    Allow sonar to go outside wrapper.
+    ----------------------------------------------
+    */
+
+    overflow: visible;
+
+}
+
+
+/* ==================================================
+   SONAR WAVES
+================================================== */
+
+/*
+   The sonar circles are generated from the
+   wrapper itself.
+
+   They are NOT attached to hover.
+
+   They continuously run.
+*/
+
+.marker-wrapper::before,
+.marker-wrapper::after {
+
+    content: "";
+
+
+    position: absolute;
+
+
+    /*
+    ----------------------------------------------
+    STARTING SONAR SIZE
+
+    This is calculated from the marker size.
+
+    Example:
+
+    Marker = 70px
+    sonarSize = 2
+
+    Starting sonar =
+    140px
+    ----------------------------------------------
+    */
+
+    width:
+        calc(
+            var(--marker-size)
+            * var(--sonar-size)
+        );
+
+    height:
+        calc(
+            var(--marker-size)
+            * var(--sonar-size)
+        );
+
+
+    /*
+    ----------------------------------------------
+    CENTER THE SONAR
+    ----------------------------------------------
+    */
+
+    left: 50%;
+
+    top: 50%;
+
+
+    transform:
+
+        translate(
+            -50%,
+            -50%
+        )
+
+        scale(0.15);
+
+
+    /*
+    ----------------------------------------------
+    CIRCLE
+    ----------------------------------------------
+    */
+
+    border-radius: 50%;
+
+
+    /*
+    ----------------------------------------------
+    SONAR BORDER
+    ----------------------------------------------
+    */
+
+    border:
+
+        var(--sonar-border-width)
+
+        solid
+
+        rgba(
+            var(--sonar-color),
+            var(--sonar-opacity)
+        );
+
+
+    /*
+    ----------------------------------------------
+    BEHIND MARKER
+    ----------------------------------------------
+    */
+
+    z-index: 1;
+
+
+    /*
+    ----------------------------------------------
+    IMPORTANT
+
+    Allows marker dragging through the sonar.
+    ----------------------------------------------
+    */
+
+    pointer-events: none;
+
+
+    /*
+    ----------------------------------------------
+    CONTINUOUS ANIMATION
+    ----------------------------------------------
+    */
+
+    animation:
+
+        sonarWave
+
+        var(--sonar-duration)
+
+        linear
+
+        infinite;
+
+}
+
+
+/* ==================================================
+   FIRST WAVE
+================================================== */
+
+.marker-wrapper::before {
+
+    animation-delay: 0s;
+
+}
+
+
+/* ==================================================
+   SECOND WAVE
+================================================== */
+
+.marker-wrapper::after {
+
+    animation-delay:
+        var(--sonar-delay);
+
+}
+
+
+/* ==================================================
+   SONAR ANIMATION
+================================================== */
+
+@keyframes sonarWave {
+
+    /*
+    ----------------------------------------------
+    START
+    ----------------------------------------------
+    */
+
+    0% {
+
+        transform:
+
+            translate(
+                -50%,
+                -50%
+            )
+
+            scale(0.15);
+
+
+        opacity: 0.85;
+
+    }
+
+
+    /*
+    ----------------------------------------------
+    EXPANDING
+    ----------------------------------------------
+    */
+
+    50% {
+
+        opacity: 0.35;
+
+    }
+
+
+    /*
+    ----------------------------------------------
+    FINAL SIZE
+    ----------------------------------------------
+    */
+
+    100% {
+
+        transform:
+
+            translate(
+                -50%,
+                -50%
+            )
+
+            scale(
+                var(--sonar-expansion)
+            );
+
+
+        opacity: 0;
+
+    }
+
+}
+
+
+/* ==================================================
+   ACTUAL SVG MARKER
+================================================== */
+
+.custom-marker {
+
+    /*
+    ----------------------------------------------
+    THIS IS THE IMPORTANT FIX.
+
+    The SVG itself is now explicitly controlled
+    by --marker-size.
+
+    It is NOT using clamp() anymore.
+    ----------------------------------------------
+    */
+
+    width:
+        var(--marker-size);
+
+    height:
+        var(--marker-size);
+
+
+    /*
+    ----------------------------------------------
+    Preserve SVG proportions.
+    ----------------------------------------------
+    */
+
+    object-fit: contain;
+
+
+    /*
+    ----------------------------------------------
+    Keep SVG above sonar.
+    ----------------------------------------------
+    */
+
+    position: relative;
+
+    z-index: 5;
+
+
+    /*
+    ----------------------------------------------
+    Prevent browser shrinking.
+    ----------------------------------------------
+    */
+
+    flex-shrink: 0;
+
+
+    /*
+    ----------------------------------------------
+    User interaction.
+    ----------------------------------------------
+    */
+
+    cursor: pointer;
+
+    user-select: none;
+
+
+    /*
+    ----------------------------------------------
+    Smooth hover.
+    ----------------------------------------------
+    */
+
+    transition:
+
+        transform
+        0.25s
+        ease,
+
+        filter
+        0.25s
+        ease;
+
+}
+
+
+/* ==================================================
+   HOVER
+================================================== */
+
+.custom-marker:hover {
+
+    transform:
+
+        translateY(-4px)
+
+        scale(1.08);
+
+
+    filter:
+
+        drop-shadow(
+
+            0 10px 15px
+
+            rgba(
+                0,
+                0,
+                0,
+                0.25
+            )
+
+        );
+
+}
+
+
+/* ==================================================
+   LIVE MARKER
+================================================== */
+
+.custom-marker-live {
+
+    animation:
+
+        markerPulse
+
+        2s
+
+        ease-in-out
+
+        infinite;
+
+}
+
+
+/* ==================================================
+   LIVE MARKER GLOW
+================================================== */
+
+@keyframes markerPulse {
+
+    0%,
+    100% {
+
+        filter:
+
+            drop-shadow(
+
+                0 4px 8px
+
+                rgba(
+                    123,
+                    46,
+                    255,
+                    0.3
+                )
+
+            );
+
+    }
+
+
+    50% {
+
+        filter:
+
+            drop-shadow(
+
+                0 4px 14px
+
+                rgba(
+                    123,
+                    46,
+                    255,
+                    0.6
+                )
+
+            );
+
+    }
+
+}
+
+
+/* ==================================================
+   DRAGGING
+================================================== */
+
+.marker-dragging {
+
+    cursor: grabbing;
+
+}
+
+
+/* ==================================================
+   MARKER WHILE DRAGGING
+================================================== */
+
+.marker-dragging
+.custom-marker {
+
+    transform:
+
+        translateY(-4px)
+
+        scale(1.05);
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 600px) {
+
+    .marker-wrapper {
+
+        /*
+        Still uses the exact size you specified.
+        */
+
+        width:
+            var(--marker-size);
+
+        height:
+            var(--marker-size);
+
+    }
+
+
+    .custom-marker {
+
+        width:
+            var(--marker-size);
+
+        height:
+            var(--marker-size);
+
+    }
+
+}
